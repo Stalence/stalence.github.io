@@ -3,7 +3,7 @@ layout: post
 categories: posts
 title: Page under construction!
 subtitle: This is a test post.
-featured-image: /images/header/GITS_crop.jpg
+#featured-image: /images/header/GITS_crop.jpg
 tags: [sample post]
 date-string: July 2021
 ---
