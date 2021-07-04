@@ -1,11 +1,11 @@
 ---
 layout: post
 categories: posts
-title: Sample Post
+title: Page under construction!
 subtitle: This is a test post.
-featured-image: /images/2016-11-19/GITS_background_cropped.jpg
+featured-image: /images/header/GITS_crop.jpg
 tags: [sample post]
-date-string: NOVEMBER 20, 2016
+date-string: July 2021
 ---
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
