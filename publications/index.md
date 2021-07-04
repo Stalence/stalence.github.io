@@ -1,8 +1,7 @@
 ---
 layout: post
 categories: posts
-title: About
-featured-image: /images/about/me.jpg
+title: Publications
 ---
 <p>
 To be updated!
