@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: about
 categories: posts
 title: About
 featured-image: /images/about/me.jpg
