@@ -5,16 +5,16 @@ a {
 	color: $text-color; 
 
 	&:visited { 
-		color: lighten($link-color, 20); 
+		color: lighten(rgb(255, 166, 0), 20); 
 	}
 
 	&:hover { 
-		color: lighten($link-color, 20); 
+		color: lighten(rgb(255, 166, 0), 20); 
 	}
 
 	&:focus { 
 		outline: thin dotted; 
-		color: darken($link-color, 20);
+		color: lighten(rgb(255, 166, 0), 20);
 	}
 
 	&:hover, 
@@ -152,13 +152,13 @@ svg:not(:root) {
     a{
     	text-transform: uppercase;
         //color: $base-color;
-        color: lighten($base-color,30);
+        color: lighten(rgb(255, 166, 0),30);
         font-weight: 100;
     }
     
     a:hover {
     	text-transform: uppercase;
-        color: lighten($base-color,60);
+        color: lighten(rgb(255, 166, 0),60);
         font-weight: 100;
     }
 }
@@ -323,11 +323,11 @@ header .entry-meta {
     font-size: 14px;
 
     a:link{
-        color: lighten($text-color,60);
+        color: lighten(rgb(255, 166, 0),60);
     }
     
 	a:hover {
-		color: lighten($text-color,80);
+		color: lighten(rgb(255, 166, 0),80);
 	}
 }
 
