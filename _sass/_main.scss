@@ -264,7 +264,7 @@ header .entry-meta {
 	}
 
 	article {
-		background-color: #fff;
+		background-color: $body-color;
 		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.2);
 		border-radius: 3px;
 		margin-bottom: 20px;
@@ -342,7 +342,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: rgba(rgb(245, 13, 13),0.8);
+	background-color:$body-color;
     margin-top: 0px + $doc-line-height;
     font-size: 0px + $doc-font-size;
 }
