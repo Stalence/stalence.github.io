@@ -1,4 +1,11 @@
 ---
+layout: post
+categories: posts
+title: World Spirit and the Matrix Revolutions
+subtitle: Why Revolutions is, in some ways, the most ambitious of the sequels.
+tags:
+  - the matrix, spirit of the universe
+date-string: 'July 5, 2021'
 published: false
 ---
 Below I will provide a more philosophical (and speculative) account of what the golden light is, based on material that has been released either with the movies or after them. There are certain interpretative jumps that need to be taken but in my view this is quite consistent with information that is presented in the movies and other media from the Wachowski's themselves. Finally, even though this is a philosophical perspective, it does materialize when we see Neo destroy sentinels, when they touch him without entering the ship (your question), when he sees Smith while being blind, etc.
