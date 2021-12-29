@@ -131,7 +131,7 @@ svg:not(:root) {
     font-size: 100; 
     background: inherit; 
     border: inherit;
-    color: #006699;
+    color: #ffae00;
 }
 
 /*--- NAVIGATION BAR --------------------------------------------------------*/
@@ -152,7 +152,7 @@ svg:not(:root) {
     a{
     	text-transform: uppercase;
         //color: $base-color;
-        color: lighten(rgb(255, 166, 0),30);
+        color: lighten($text-color,30);
         font-weight: 100;
     }
     
@@ -323,7 +323,7 @@ header .entry-meta {
     font-size: 14px;
 
     a:link{
-        color: lighten(rgb(255, 166, 0),60);
+        color: lighten($text-color,60);
     }
     
 	a:hover {
