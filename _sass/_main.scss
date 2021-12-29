@@ -188,14 +188,18 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a 
 .entry-content {
     font-size: 16px;
     line-height: 26px;
+	color: $text-color;
 }
 
 .entry-title {
     font-weight: 100;
+	color: $text-color;
 }
 
 .entry-subtitle {
 	font-weight: 100;
+	color: $text-color;
+
 }
 
 .main-header-image {
