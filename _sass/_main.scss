@@ -2,7 +2,7 @@
 
 a {  
 	text-decoration: none;
-	color: $link-color; 
+	color: $text-color; 
 
 	&:visited { 
 		color: lighten($link-color, 20); 
