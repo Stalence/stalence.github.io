@@ -4,7 +4,7 @@ categories: posts
 title: World Spirit and the Matrix Revolutions
 subtitle: 'Why Revolutions is, in some ways, the most ambitious of the sequels.'
 tags:
-  - 'the matrix, spirit of the universe, hegel, phenomenology of spirit'
+  - 'The Matrix, Spirit of the Universe'
 date-string: 'July 5, 2021'
 published: false
 ---
