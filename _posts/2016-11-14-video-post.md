@@ -4,6 +4,8 @@ categories: posts
 title: A Video Post
 tags: [sample post, video]
 date-string: NOVEMBER 14, 2016
+published: false
+
 ---
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EqAnYPiZiNA" frameborder="0" allowfullscreen></iframe>
