@@ -1,5 +1,5 @@
 title:            Nikos Karalias  
-description:      Your site description...
+description:      Balboa Station, watch your step
 copyright:        Nikolaos Karalias
 url: # add your custom site url (format: https://example.com)
 
@@ -20,7 +20,7 @@ sass:
 permalink: /:categories/:year-:month-:day/:title.html
 
 # Amount of post to show on home page
-paginate: 1
+paginate: 5
 
 #kramdown:
 #  input: GFM
