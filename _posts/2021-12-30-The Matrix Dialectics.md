@@ -6,7 +6,7 @@ subtitle: 'Why Revolutions is, in some ways, the most ambitious of the sequels.'
 tags:
   - 'the matrix, spirit of the universe, hegel, phenomenology of spirit'
 date-string: 'July 5, 2021'
-published: true
+published: false
 ---
 The Matrix franchise has been in the spotlight for the past few months due to the release of the fourth installment "The Matrix: Resurrections". The discussions I see online have reminded me how misunderstood the sequels are. It's no secret that I absolutely love the franchise. It's absolutely packed with symbolism and cool ideas that over the years keep impressing me with how bold and ambitious they are. In this post, I will focus on one of the key concepts that makes its appearance in the 3rd film, the golden light.
 
