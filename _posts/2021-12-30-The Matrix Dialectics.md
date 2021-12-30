@@ -2,16 +2,19 @@
 layout: post
 categories: posts
 title: World Spirit and the Matrix Revolutions
-subtitle: Why Revolutions is, in some ways, the most ambitious of the sequels.
+subtitle: 'Why Revolutions is, in some ways, the most ambitious of the sequels.'
 tags:
-  - the matrix, spirit of the universe, hegel, phenomenology of spirit
+  - 'the matrix, spirit of the universe, hegel, phenomenology of spirit'
 date-string: 'July 5, 2021'
 published: true
 ---
-Below I will provide a more philosophical (and speculative) account of what the golden light is, based on material that has been released either with the movies or after them. There are certain interpretative jumps that need to be taken but in my view this is quite consistent with information that is presented in the movies and other media from the Wachowski's themselves. Finally, even though this is a philosophical perspective, it does materialize when we see Neo destroy sentinels, when they touch him without entering the ship (your question), when he sees Smith while being blind, etc.
+The Matrix franchise has been in the spotlight for the past few months due to the release of the fourth installment "The Matrix: Resurrections". The discussions I see online have reminded me how misunderstood the sequels are. It's no secret that I absolutely love the franchise. It's absolutely packed with symbolism and cool ideas that over the years keep impressing me with how bold and ambitious they are. In this post, I will focus on one of the key concepts that makes its appearance in the 3rd film, the golden light.
 
-From the philosopher's commentary with Dr. Cornel West and Ken Wilber as well as the comments by Lana Wachowski in
-[A discussion between Lana and Ken wilber][1] (timestamped),
+As a quick refresher, starting from the end of the second film, we can see that Neo is able to "feel" the sentinels and even shut them down at will. He is also destroying sentinels en masse on his way to the machine city while Trinity is driving, even though he can't even see them. People have argued that he has somehow gained access to some kind of wireless connection to the machines through his interaction with the source in the second film. I don't think this holds up as an explanation because in the third film, he is blinded by Bane (who is possessed by Smith) and we can clearly see that he is able to see Smith inside Bane's flesh even though he's blind. There are no mechanical parts in Bane, his consciousness has just been altered by Smith so Neo's ability is clearly more than just wirelessly accessing machines.
+
+Below I will provide a more philosophical (and speculative) account of what the golden light is, based on material that has been released either with the movies or after them. There are certain interpretative jumps that need to be taken but in my view they are quite consistent with information that is presented in the movies and other media from the Wachowski's themselves. Finally, even though this is a philosophical perspective, it does materialize when we see Neo destroy sentinels, when they touch him without entering the ship (your question), when he sees Smith while being blind, etc.
+
+From the philosopher's commentary with Dr. Cornel West and Ken Wilber as well as the comments by Lana Wachowski in [A discussion between Lana and Ken wilber][1] (timestamped),
 it becomes clear that the gold light that Neo perceives in the city of Machines has major conceptual significance for the trilogy. 
 
 
