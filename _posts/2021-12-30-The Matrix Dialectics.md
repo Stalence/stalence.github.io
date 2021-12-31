@@ -39,8 +39,6 @@ I will do my best to explain what that means and why this view makes sense. Addi
 
 The golden light appears in the opening sequence of the Matrix Revolutions. In the youtube video I linked, Lana explains that the opening sequence tries to provide a visual "summary" of what the film is about. You can watch the sequence [on this link][2].
 
-[![Julia set opening sequence][3]][3]
-
 The sequence begins with an explosion of golden light symbolizing the Big Bang, and an emergence of fractal patterns which are most likely a rendering of a [Julia set][4]. As the camera keeps zooming inside the fractals, it eventually reaches a depiction of the machine city. Fractals exhibit self-similarity and (roughly speaking) are produced by an iterative process that converges for certain points and diverges for others. Fractals are rather generic entities that have been used in all sorts of metaphors so by themselves they're not enough to draw any solid conclusion. Following the fractals we zoom out to matrix code and a panoramic view of the matrix Megacity which looks like a symbol. So the Matrix and the Megacity appear to be layered *on top* of the golden light in this sequence.
 
 Given Lana's comments and that the golden light is shown to underlie the matrix and the megacity, it is fair to assume at this point that it's a fundamental layer of the story, and given the Big Bang depiction, of reality as presented in the matrix.
@@ -198,3 +196,4 @@ I will just end this post with a quote from Hegel's "Philosophy of Nature" which
   [12]: https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel
   [13]: https://youtu.be/ARoKJ00cEZ8?t=4246
   [14]: https://www.youtube.com/watch?v=Fgg7FdznyQg
+  [15]: https://en.wikipedia.org/wiki/Julia_set
