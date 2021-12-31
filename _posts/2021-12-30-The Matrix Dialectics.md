@@ -7,7 +7,7 @@ tags:
   - 'The Matrix, Spirit of the Universe'
 date-string: 'December 31, 2021'
 featured-image: /images/2021-12-31/goldjulia.jpg
-preview-image: /images/2021-12-31/sentinel.jpg
+preview-image: /images/2021-12-31/sentinel2.jpg
 published: true
 ---
 The Matrix franchise has been in the spotlight for the past few months due to the release of the fourth installment "The Matrix: Resurrections". The discussions I see online have reminded me how misunderstood the sequels are. It's no secret that I love the franchise. It's absolutely packed with symbolism and cool ideas that over the years keep impressing me with how bold and ambitious they are. In this post, I will focus on one of the key concepts that makes its appearance in the third film: the golden light. [![Machine City][11]][11]
