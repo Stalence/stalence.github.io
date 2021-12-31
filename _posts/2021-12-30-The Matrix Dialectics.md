@@ -177,7 +177,7 @@ I will just end with this post with a quote from Hegel's "Philosophy of Nature" 
 >All cultural change reduces itself to a difference of categories. All revolutions, whether in the sciences or world history, occur merely because spirit has changed its categories in order to understand and examine what belongs to it, in order to possess and grasp itself in a truer, deeper, more intimate and unified manner.
 
 <center>
-<iframe width="853" height="480" src="https://www.youtube.com/embed/be_z7_18d70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<iframe width="800" height="480" src="https://www.youtube.com/embed/be_z7_18d70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 
 
