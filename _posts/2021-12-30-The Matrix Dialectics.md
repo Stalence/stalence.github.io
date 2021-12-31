@@ -5,7 +5,7 @@ title: World Spirit and the Matrix Revolutions
 subtitle: 'Why Revolutions is, in some ways, the most ambitious of the sequels.'
 tags:
   - 'The Matrix, Spirit of the Universe'
-date-string: 'July 5, 2021'
+date-string: 'December 31, 2021'
 published: true
 ---
 The Matrix franchise has been in the spotlight for the past few months due to the release of the fourth installment "The Matrix: Resurrections". The discussions I see online have reminded me how misunderstood the sequels are. It's no secret that I love the franchise. It's absolutely packed with symbolism and cool ideas that over the years keep impressing me with how bold and ambitious they are. In this post, I will focus on one of the key concepts that makes its appearance in the third film: the golden light. [![Machine City][11]][11]
@@ -160,17 +160,17 @@ After Neo succeeds, the lights in the machine city are beginning to turn green:
 [![machine city][10]][10]
 Given Lana's words about transcending the Cartesian dilemma, it's fair to assume that this is a deliberate choice, meant to signify the unification of the worlds of mind and body.
 
-So why does it even make sense to go there? What is the point of involving all those philosophical ideas? Well, apart from serving as great literary devices, we need to remember where the Matrix started from.
+So why does it even make sense to go there? What is the point of invoking all those philosophical ideas? Well, apart from serving as great literary devices, we need to remember where the Matrix started from.
 Starting with the first, the main character is forced to completely revise his framework for understanding the world as he realizes that he was trapped in a simulated reality. Upon reevaluating his worldview and assuming the role of the one, he realizes that this new framework has to be reevaluated as well, as it's yet another system of control laid out by the machines. Naturally, by the end of Reloaded we can wonder
-whether this process of revaluating the framework for understanding the world ever "bottoms out". That's where Revolutions comes. It aims to provide an account of how a kind of "ultimate knowledge" (spirit of the universe) emerges during the confrontation of entities with conflicting views and categorizations of the world. It is through those conflicts that spirit self-actualizes and Neo is the vessel of this discovery in the trilogy.
+whether this process of revaluating the framework for understanding the world ever "bottoms out". That's where Revolutions comes. It aims to provide an account of how a kind of "ultimate knowledge" (spirit of the universe) emerges during the confrontation of entities with conflicting views and categorizations of the world. It is through those conflicts that spirit self-actualizes and Neo, along with Trinity and other key characters like the Oracle, are the vessels of this discovery in the trilogy.
 
 I'll leave a last quote from Lana's interview about the golden light:
-> That light is what the third movie is trying to solve, post deconstructing something like choice. You can say choice is important, choice is a part of everyones lives... but that paradigm of choice is not different, it's a matrix just like Catholicism or Christianity...
+> That light is what the third movie is trying to solve, post deconstructing something like choice. You can say choice is important, choice is a part of everyone's lives... but that paradigm of choice is not different, it's a matrix just like Catholicism or Christianity...
 >...a tool for understanding the world, having a framework of meaning.
 
 And this, is exactly why I find Revolutions to be the most ambitious sequel. It aims to provide a rather bold and idealistic account for the evolution of history in terms of the evolution of spirit. I'm not particularly spiritual in my life, but spiritual themes can be great at driving narratives in movies and this is exactly what's happening here.
 I love how the Wachowskis decided to go about this one.
-While a lot of those ideas are not explicitly detailed in the movie, this is in part because the Wachowskis did intend this to be a puzzle for people to analyze. 
+While a lot of those ideas are not explicitly detailed in the movie, this is in part because the Wachowskis intended this to be a puzzle for people to analyze. 
 The pieces of the puzzle are there, although arguably not entirely contained in the trilogy. As a viewer, you can either decide to dismiss all of those things as arbitrary aesthetic decisions, or take into account the clues that are available and piece it all together. Now, I have left out a lot of parts that merit discussion like free will vs fate or the religious references of the movie. I may come back to write a few things about how those ideas relate to spirit, but for now... it is done.
 
 I will just end with this post with a quote from Hegel's "Philosophy of Nature" which I find rather fitting:
