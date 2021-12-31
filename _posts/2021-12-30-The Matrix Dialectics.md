@@ -123,9 +123,9 @@ Neo had to concede to Smith and let himself be absorbed. Not only does he physic
 
 Now, let's take a quick look at the wiki for the [Master-Slave dialectic][8]. We read:
 >Crucially, for Hegel, absolute knowledge (Spirit) cannot come to be without first a self-consciousness recognizing another self-consciousness. He maintained that the entire reality is immediately present to self-consciousness. It undergoes three stages of development:
-Desire, where self-consciousness is directed at things other than itself
-Master-slave, where the self-consciousness is directed at another that is unequal to itself
-Universal self-conscious, where the self-conscious recognizes itself in another.[3]
+>**Desire**, where self-consciousness is directed at things other than itself.
+>**Master-slave**, where the self-consciousness is directed at another that is unequal to itself.
+>**Universal self-conscious**, where the self-conscious recognizes itself in another.
 
 And a few lines below:
 >A struggle to the death ensues. However, if one of the two should die, the achievement of self-consciousness fails. Hegel refers to this failure as "abstract negation" not the negation or sublation required. This death is avoided by the agreement, communication of, or subordination to, slavery.
