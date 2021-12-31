@@ -13,7 +13,7 @@ The Matrix franchise has been in the spotlight for the past few months due to th
 As a quick refresher, starting from the end of the second film, we can see that Neo is able to "feel" the sentinels and even shut them down at will. He is also destroying sentinels en masse on his way to the machine city while Trinity is driving, even though he can't even see them. People have argued that he has somehow gained access to a kind of wireless connection to the machines through his interaction with the source in the second film. I don't think this holds up as an explanation because in the third film, he is blinded by Bane (who is possessed by Smith) and we can clearly see that he is able to see Smith inside Bane's flesh even though he's blind. There are no mechanical parts in Bane, his consciousness has just been altered by Smith. Whatever effect the source had on Neo seems to transcend ordinary electronic circuits.
 
 Below I will provide a more philosophical (and speculative) account of what the golden light is and how it connects to Neo's abilities based on material that has been released either with the movies or after them.
-If you expect a strictly mechanistic explanation of everything you will probably be disappointed. This is more of a looser attempt at putting things together and as such, we probably need to tone down the scientist in us a little bit. There are certain interpretative jumps that need to be taken which (in my view) are quite consistent with information that is presented in the movies and other media from the Wachowski's themselves. 
+If you expect a strictly mechanistic explanation of everything you will probably be disappointed. This is more of a looser attempt at putting things together and as such, we probably need to tone down the scientist in us a little bit. There are certain interpretative jumps that need to be taken which (in my view) are quite consistent with information that is presented in the movies and other media from the Wachowskis themselves. 
 
 So... let's get the obvious stuff out of the way. Apart from pure curiosity, what makes the golden light worth discussing? 
 From the philosopher's commentary with Dr. Cornel West and Ken Wilber as well as the comments by Lana Wachowski in [a discussion between Lana and Ken wilber][1] (timestamped),
@@ -25,6 +25,10 @@ it becomes clear that the gold light that Neo perceives in the city of Machines 
 > Stone is when Neo, for example, is saying of the machines, "If you
 > could only see them like I see em...they're all light.  They're made
 > of light"
+
+This is just Ken Wilber's interpretation though. However, he does point out that he has "corroborated" his interpretation with the Wachowskis to some extent. Here's what Lana had to say
+in a [recent interview][13]
+>If you basically work on what the trilogy is all about, you come to this symbol that is never discussed... and yet it's there clearly. The third movie actually begins with the gold light as a part of the opening title montage. As if to say that...look, this is an essential element. It's as important as the matrix code is.  
 
 My central claim in this post is that the golden light is meant to symbolize <span style="color:rgb(255, 166, 0)">spirit</span> 
 . 
@@ -191,3 +195,4 @@ Finally, I will end with this post quote from Hegel's "Philosophy of Nature" whi
   [10]: https://i.imgur.com/joX8nXr.jpg
   [11]: https://i.imgur.com/eNO90eB.jpg
   [12]: https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel
+  [13]: https://youtu.be/ARoKJ00cEZ8?t=4246
