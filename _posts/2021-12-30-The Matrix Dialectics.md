@@ -97,7 +97,7 @@ From the Stanford encyclopedia of philosophy:
 > ...
 > Being is the positive moment or thesis, Nothing is the negative moment or antithesis, and Becoming is the moment of aufheben or synthesis—the concept that cancels and preserves, or unifies and combines, Being and Nothing.
 
-So Thesis-Antithesis-Synthesis can be used to describe the evolution of a logical argument. We start with a proposition (thesis). Then a contradiction in that proposition leads to a counter-proposition (antithesis).
+So Thesis-Antithesis-Synthesis can be used to describe the evolution of a logical argument. This is what Lana means when she says that the structure was dialectical. We start with a proposition (thesis). Then a contradiction in that proposition leads to a counter-proposition (antithesis).
 Those are reconciled by creating a new proposition which combines the two.
 Neo's struggle with Smith can be metaphorically viewed in those terms.
 Essentially, starting from a thesis (Neo) a contradiction arises which leads
