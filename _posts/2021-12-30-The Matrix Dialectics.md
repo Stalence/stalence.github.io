@@ -34,7 +34,7 @@ My central claim in this post is that the golden light is meant to symbolize <sp
 . 
 I will do my best to explain what that means and why this view makes sense. Additionally, I'll provide you with sources that support this claim and I'll briefly go over them to describe what each source suggests.
 
-<h2 style="color:rgb(255, 166, 0);">Introduction</h2>
+<h2 style="color:rgb(255, 166, 0);">Opening Sequence</h2>
 
 The golden light appears in the opening sequence of the Matrix Revolutions. In the youtube video I linked, Lana explains that the opening sequence tries to provide a visual "summary" of what the film is about. You can watch the sequence [on this link][2].
 
@@ -84,7 +84,7 @@ Before we get into that, check out this quote about the trilogy from a recent [i
 
  Interestingly, Hegel postulated that spirit  evolves in a dialectical manner. What does that mean? First, let's understand the other concept from the quote.
 
-<h2 style="color:rgb(255, 166, 0);">Thesis, Antithesis, Synthesis</h2>
+<h2 style="color:rgb(255, 166, 0); font-family:Lato;font-size: 22px;font-weight:100;">Thesis, Antithesis, Synthesis</h2>
 
 From the Stanford encyclopedia of philosophy:
 > This “textbook” Being-Nothing-Becoming example is closely connected to
@@ -103,7 +103,7 @@ Neo's struggle with Smith can be metaphorically viewed in those terms.
 Essentially, starting from a thesis (Neo) a contradiction arises which leads
 to the creation of antithesis (Smith). How the contradiction (and therefore Smith) emerged is handwaved away in Reloaded. All we get is that there's something teleological about his existence ("it happened for a reason"). These two have to be reconciled through synthesis; a new entity that combines the previous ones. This is the moment where Neo gets absorbed by Smith and through Deus-Ex-Machina achieves peace. 
 
-<h2 style="color:rgb(255, 166, 0); font:Lato;">Master-Slave Dialectic</h2>
+<h2 style="color:rgb(255, 166, 0); font-family:Calibri;font-size: 22px;font-weight:100;">Master-Slave Dialectic</h2>
 
 Now back into the evolution of spirit.
 Hegel in "The Phenomenology of Spirit" explained that consciousness of individuals culminates into spirit through interactions with other individual consciousness. This happens
