@@ -78,7 +78,7 @@ Here's another quote from Lana regarding Hegel during the discussion with Ken Wi
 >It's the whole process, that mystical—that Eros that you talk about, that's underneath everything, has been bringing us toward the development of self-awareness and consciousness.  Well I guess consciousness, and then self-awareness.
 
 But how is this progress towards universal "self-consciousness" achieved?
-Before we get into that, check out this quote from a recent [interview][5] that Lana Wachowski did:
+Before we get into that, check out this quote about the trilogy from a recent [interview][5] that Lana Wachowski did:
 > "We wrote it as an elegant structure that was **dialectical** in nature... It was resonant with ideas of birth, life, death... and **thesis,**
 > **antithesis, synthesis...**"
 
