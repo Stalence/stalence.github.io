@@ -8,7 +8,7 @@ tags:
 date-string: 'July 5, 2021'
 published: true
 ---
-The Matrix franchise has been in the spotlight for the past few months due to the release of the fourth installment "The Matrix: Resurrections". The discussions I see online have reminded me how misunderstood the sequels are. It's no secret that I love the franchise. It's absolutely packed with symbolism and cool ideas that over the years keep impressing me with how bold and ambitious they are. In this post, I will focus on one of the key concepts that makes its appearance in the 3rd film: the golden light.
+The Matrix franchise has been in the spotlight for the past few months due to the release of the fourth installment "The Matrix: Resurrections". The discussions I see online have reminded me how misunderstood the sequels are. It's no secret that I love the franchise. It's absolutely packed with symbolism and cool ideas that over the years keep impressing me with how bold and ambitious they are. In this post, I will focus on one of the key concepts that makes its appearance in the 3rd film: the golden light. [![Machine City][11]][11]
 
 As a quick refresher, starting from the end of the second film, we can see that Neo is able to "feel" the sentinels and even shut them down at will. He is also destroying sentinels en masse on his way to the machine city while Trinity is driving, even though he can't even see them. People have argued that he has somehow gained access to a kind of wireless connection to the machines through his interaction with the source in the second film. I don't think this holds up as an explanation because in the third film, he is blinded by Bane (who is possessed by Smith) and we can clearly see that he is able to see Smith inside Bane's flesh even though he's blind. There are no mechanical parts in Bane, his consciousness has just been altered by Smith. Whatever effect the source had on Neo seems to transcend ordinary electronic circuits.
 
@@ -16,7 +16,7 @@ Below I will provide a more philosophical (and speculative) account of what the 
 If you expect a strictly mechanistic explanation of everything you will probably be disappointed. This is more of a looser attempt at putting things together and as such, we probably need to tone down the scientist in us a little bit. There are certain interpretative jumps that need to be taken which (in my view) are quite consistent with information that is presented in the movies and other media from the Wachowski's themselves. 
 
 So... let's get the obvious stuff out of the way. Apart from pure curiosity, what makes the golden light worth discussing? 
-From the philosopher's commentary with Dr. Cornel West and Ken Wilber as well as the comments by Lana Wachowski in [A discussion between Lana and Ken wilber][1] (timestamped),
+From the philosopher's commentary with Dr. Cornel West and Ken Wilber as well as the comments by Lana Wachowski in [a discussion between Lana and Ken wilber][1] (timestamped),
 it becomes clear that the gold light that Neo perceives in the city of Machines has major conceptual significance for the trilogy. 
 
 > Ken Wilber: As you know, I think it's incredibly gutsy because the whole key
@@ -121,7 +121,7 @@ Universal self-conscious, where the self-conscious recognizes itself in another.
 And a few lines below:
 >A struggle to the death ensues. However, if one of the two should die, the achievement of self-consciousness fails. Hegel refers to this failure as "abstract negation" not the negation or sublation required. This death is avoided by the agreement, communication of, or subordination to, slavery.
 
-Thematically, it appears that Neo's role was essentially the role of achieving self-consciousness by engaging in a death struggle with another Smith and ultimately surrendering. In those moments, we see the shots of golden light completely overtaking Neo. At that point we're seeing the emergence of Spirit. [![enter image description here][6]][6]. 
+Thematically, it appears that Neo's role was essentially the role of achieving self-consciousness by engaging in a death struggle with another Smith and ultimately surrendering. In those moments, we see the shots of golden light completely overtaking Neo. At that point we're seeing the emergence of Spirit. [![enter image description here][6]][6]
 
 
 You could argue that I'm reaching really hard to get this interpretation so let's bring some more evidence to back this up.
@@ -187,3 +187,4 @@ As a final note, I'll end with this quote from Hegel's "Philosophy of Nature":
   [8]: https://en.wikipedia.org/wiki/Master%E2%80%93slave_dialectic
   [9]: https://i.imgur.com/d9HgE04.jpg
   [10]: https://i.imgur.com/joX8nXr.jpg
+  [11]: https://i.imgur.com/eNO90eB.jpg
