@@ -101,7 +101,7 @@ So Thesis-Antithesis-Synthesis can be used to describe the evolution of a logica
 Those are reconciled by creating a new proposition which combines the two.
 Neo's struggle with Smith can be metaphorically viewed in those terms.
 Essentially, starting from a thesis (Neo) a contradiction arises which leads
-to the creation of antithesis (Smith). How the contradiction (and therefore Smith) emerged is handwaved away in Reloaded. All we get is that there's something teleological about his existence ("it happened for a reason"). These two have to be reconciled through synthesis; a new entity that combines the previous ones. This is the moment where Neo gets absorbed by Smith and through Deus-Ex-Machina achives peace. 
+to the creation of antithesis (Smith). How the contradiction (and therefore Smith) emerged is handwaved away in Reloaded. All we get is that there's something teleological about his existence ("it happened for a reason"). These two have to be reconciled through synthesis; a new entity that combines the previous ones. This is the moment where Neo gets absorbed by Smith and through Deus-Ex-Machina achieves peace. 
 
 <h2 style="color:rgb(255, 166, 0);">Master-Slave Dialectic</h2>
 
