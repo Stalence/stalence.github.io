@@ -6,7 +6,7 @@ subtitle: 'Why Revolutions is, in some ways, the most ambitious of the sequels.'
 tags:
   - 'The Matrix, Spirit of the Universe'
 date-string: 'July 5, 2021'
-published: true
+published: false
 ---
 The Matrix franchise has been in the spotlight for the past few months due to the release of the fourth installment "The Matrix: Resurrections". The discussions I see online have reminded me how misunderstood the sequels are. It's no secret that I love the franchise. It's absolutely packed with symbolism and cool ideas that over the years keep impressing me with how bold and ambitious they are. In this post, I will focus on one of the key concepts that makes its appearance in the 3rd film, the golden light.
 
@@ -155,15 +155,12 @@ So why does it even make sense to go there? What is the point of involving all t
 Starting with the first, the main character is forced to completely revise his framework for understanding the world as he realizes that he was trapped in a simulated reality. Upon reevaluating his worldview and assuming the role of the one, he realizes that this new framework has to be reevaluated as well, as it's yet another system of control laid out by the machines. Naturally, by the end of Reloaded we can wonder
 whether this process of revaluating the framework for understanding the world ever "bottoms out". That's where Revolutions comes. It aims to provide an account of how a kind of "ultimate knowledge" (spirit of the universe) emerges during the confrontation of entities with conflicting views and categorizations of the world. It is through those conflicts that spirit self-actualizes and Neo is the vessel of this discovery in the trilogy.
 
+And this, is exactly why I find Revolutions to be the most ambitious sequel. It aims to provide a rather bold and idealistic account for the evolution of history. 
+While a lot of those ideas are not explicitly detailed in the movie, this is in part because the Wachowskis did intend this to be a "puzzle" for people to analyze. 
 I'll leave a last quote from Lana's interview about the golden light:
 > That light is what the third movie is trying to solve, post deconstructing something like choice. You can say choice is important, choice is a part of everyones lives... but that paradigm of choice is not different, it's a matrix just like Catholicism or Christianity...
 >...a tool for understanding the world, having a framework of meaning.
-
-And this, is exactly why I find Revolutions to be the most ambitious sequel. It aims to provide a rather bold and idealistic account for the evolution of history. 
-While a lot of those ideas are not explicitly detailed in the movie, this is in part because the Wachowskis did intend this to be a puzzle for people to analyze. 
-But the pieces of the puzzle are there. As a viewer, you can either decide to dismiss all of those things as arbitrary aesthetic decisions, or take into account the 
-clues that are out there and piece it all together. Now, I have left out a lot of parts that merit discussion like free will vs fate or the religious references of the movie.
-I may come back to write a few things about how those ideas relate to spirit, but for now I'll leave it at that. 
+>...First everything is an illusion. It's revealed to be a construction. Then there's a new construction that's put on top of that construction, The One, Religion,  prophecy, Oracle bla bla. So this new matrix is projected onto the old matrix and he's like "Yeah man, this is great, I can fly. I got enlightenment". But then that enlightenment turns out to be false in the second one. It's all a big lie. He's like "wow, what do I do now, it's all a big lie." So that's what the third one is all about.
 
 As a final note, I'll end with this quote from Hegel's "Philosophy of Nature":
 >All cultural change reduces itself to a difference of categories. All revolutions, whether in the sciences or world history, occur merely because spirit has changed its categories in order to understand and examine what belongs to it, in order to possess and grasp itself in a truer, deeper, more intimate and unified manner.
