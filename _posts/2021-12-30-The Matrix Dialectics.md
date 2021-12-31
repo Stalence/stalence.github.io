@@ -26,10 +26,11 @@ it becomes clear that the gold light that Neo perceives in the city of Machines 
 > could only see them like I see em...they're all light.  They're made
 > of light"
 
-My central claim in this post is that the golden light is meant to symbolize **spirit**. 
+My central claim in this post is that the golden light is meant to symbolize <span style="color:rgb(255, 166, 0)">spirit</span> 
+. 
 I will do my best to explain what that means and why this view makes sense. Additionally, I'll provide you with sources that support this claim and I'll briefly go over them to describe what each source suggests.
 
-**Introduction**
+<h2 style="color:rgb(255, 166, 0);">Introduction</h2>
 
 The golden light appears in the opening sequence of the Matrix Revolutions. In the youtube video I linked, Lana explains that the opening sequence tries to provide a visual "summary" of what the film is about. You can watch the sequence [on this link][2].
 
@@ -49,10 +50,11 @@ To explain this in more detail we will need to introduce some key concepts that 
 
 **Disclaimer**: I am not a philosopher and I have read about those things only in online lecture material, blog posts, and online encyclopedias. I'm sure there will be people that find this too crude or even incorrect. That's just my reading of the material and more particularly, how I think the Wachowskis understood and interpreted this material to connect it to the Matrix. Of course, I don't know them and I've never talked to them so that's just me piecing things together in a way that hopefully makes sense.
 
-**SPIRIT** 
+<h2 style="color:rgb(255, 166, 0);">SPIRIT</h2>
 
-So, what is spirit? There are multiple accounts of what constitutes Spirit, at least in the sense described in Hegel's writings.
-In the article by Rex Martin "The World Spirit" we read:
+So, what is spirit?
+There are multiple accounts of what constitutes Spirit. One of the most widely discussed realizations of the concept comes from the philosopher [Georg Wilhelm Friedrich Hegel
+][12]. In the article by Rex Martin "The World Spirit" we read:
 
 > The main speculative claim of Hegelian philosophy is that the totality
 > of human history is a single whole and the work of one Spirit (a World
@@ -71,15 +73,16 @@ a greater self-awareness (often referred to as "self-consciousness") of the univ
 Here's another quote from Lana regarding Hegel during the discussion with Ken Wilber:
 >It's the whole process, that mystical—that Eros that you talk about, that's underneath everything, has been bringing us toward the development of self-awareness and consciousness.  Well I guess consciousness, and then self-awareness.
 
-But how is this fundamental progress towards universal "self-consciousness" achieved? Hegel postulated that Spirit evolves in a dialectical manner. What does that mean?
+But how is this progress towards universal "self-consciousness" achieved?
 Before we get into that, check out this quote from a recent [interview][5] that Lana Wachowski did:
 > "We wrote it as an elegant structure that was **dialectical** in nature... It was resonant with ideas of birth, life, death... and **thesis,**
 > **antithesis, synthesis...**"
 
-**Thesis, Antithesis, Synthesis**
+ Interestingly, Hegel postulated that Spirit evolves in a dialectical manner. What does that mean? First, let's understand the other concept from the quote.
+
+<h2 style="color:rgb(255, 166, 0);">Thesis, Antithesis, Synthesis</h2>
 
 From the Stanford encyclopedia of philosophy:
-
 > This “textbook” Being-Nothing-Becoming example is closely connected to
 > the traditional idea that Hegel’s dialectics follows a
 > thesis-antithesis-synthesis pattern, which, when applied to the logic,
@@ -96,7 +99,7 @@ Neo's struggle with Smith can be metaphorically viewed in those terms.
 Essentially, starting from a thesis (Neo) a contradiction arises which leads
 to the creation of antithesis (Smith). How the contradiction (and therefore Smith) emerged is handwaved away in Reloaded. All we get is that there's something teleological about his existence ("it happened for a reason"). These two have to be reconciled through synthesis; a new entity that combines the previous ones. This is the moment where Neo gets absorbed by Smith and through Deus-Ex-Machina achives peace. 
 
-**Master-Slave Dialectic**
+<h2 style="color:rgb(255, 166, 0);">Master-Slave Dialectic</h2>
 
 Hegel in "The Phenomenology of Spirit" explained that consciousness of individuals culminates into Spirit through interactions with other individual consciousness. This happens
 when one consciousness is able to *recognize* another consciousness and place it on equal footing with itself. This occurs in history through the Master-Slave dialectic. In
@@ -159,20 +162,19 @@ I'll leave a last quote from Lana's interview about the golden light:
 > That light is what the third movie is trying to solve, post deconstructing something like choice. You can say choice is important, choice is a part of everyones lives... but that paradigm of choice is not different, it's a matrix just like Catholicism or Christianity...
 >...a tool for understanding the world, having a framework of meaning.
 
-And this, is exactly why I find Revolutions to be the most ambitious sequel. It aims to provide a rather bold and idealistic account for the evolution of history. 
+And this, is exactly why I find Revolutions to be the most ambitious sequel. It aims to provide a rather bold and idealistic account for the evolution of history. I'm not particularly spiritual in my life, but spiritual themes can be great narrative devices in movies and this is exactly what's happening here.
+I love how the Wachowskis decided to go about this one.
 While a lot of those ideas are not explicitly detailed in the movie, this is in part because the Wachowskis did intend this to be a puzzle for people to analyze. 
 But the pieces of the puzzle are there. As a viewer, you can either decide to dismiss all of those things as arbitrary aesthetic decisions, or take into account the 
 clues that are out there and piece it all together. Now, I have left out a lot of parts that merit discussion like free will vs fate or the religious references of the movie.
 I may come back to write a few things about how those ideas relate to spirit, but for now I'll leave it at that. 
 
-As a final note, I'll end with this quote from Hegel's "Philosophy of Nature":
+Finally, I will end with this post quote from Hegel's "Philosophy of Nature" which I find rather fitting:
 >All cultural change reduces itself to a difference of categories. All revolutions, whether in the sciences or world history, occur merely because spirit has changed its categories in order to understand and examine what belongs to it, in order to possess and grasp itself in a truer, deeper, more intimate and unified manner.
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=be_z7_18d70" frameborder="0" allowfullscreen></iframe>
-</center>
+<iframe width="2118" height="863" src="https://www.youtube.com/embed/be_z7_18d70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=be_z7_18d70" frameborder="0"></iframe>
 
 
 
@@ -188,3 +190,4 @@ As a final note, I'll end with this quote from Hegel's "Philosophy of Nature":
   [9]: https://i.imgur.com/d9HgE04.jpg
   [10]: https://i.imgur.com/joX8nXr.jpg
   [11]: https://i.imgur.com/eNO90eB.jpg
+  [12]: https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel
