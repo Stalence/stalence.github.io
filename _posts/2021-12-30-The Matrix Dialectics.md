@@ -179,7 +179,7 @@ I will just end with this post with a quote from Hegel's "Philosophy of Nature" 
 <center>
 <iframe width="640" height="480" src="https://www.youtube.com/embed/be_z7_18d70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-
+It is done.
 
 
 
