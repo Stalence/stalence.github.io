@@ -103,7 +103,7 @@ Neo's struggle with Smith can be metaphorically viewed in those terms.
 Essentially, starting from a thesis (Neo) a contradiction arises which leads
 to the creation of antithesis (Smith). How the contradiction (and therefore Smith) emerged is handwaved away in Reloaded. All we get is that there's something teleological about his existence ("it happened for a reason"). These two have to be reconciled through synthesis; a new entity that combines the previous ones. This is the moment where Neo gets absorbed by Smith and through Deus-Ex-Machina achieves peace. 
 
-<h2 style="color:rgb(255, 166, 0);">Master-Slave Dialectic</h2>
+<h2 style="color:rgb(255, 166, 0); font:Lato;">Master-Slave Dialectic</h2>
 
 Now back into the evolution of spirit.
 Hegel in "The Phenomenology of Spirit" explained that consciousness of individuals culminates into spirit through interactions with other individual consciousness. This happens
