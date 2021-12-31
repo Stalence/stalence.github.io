@@ -2,7 +2,7 @@
 layout: post
 categories: posts
 title: World Spirit and the Matrix Revolutions
-subtitle: 'Why Revolutions is, in some ways, the most ambitious of the sequels.'
+subtitle: 'The significance of gold light in the Matrix Trilogy'
 tags:
   - 'The Matrix, Spirit of the Universe'
 date-string: 'December 31, 2021'
@@ -10,7 +10,7 @@ published: true
 ---
 The Matrix franchise has been in the spotlight for the past few months due to the release of the fourth installment "The Matrix: Resurrections". The discussions I see online have reminded me how misunderstood the sequels are. It's no secret that I love the franchise. It's absolutely packed with symbolism and cool ideas that over the years keep impressing me with how bold and ambitious they are. In this post, I will focus on one of the key concepts that makes its appearance in the third film: the golden light. [![Machine City][11]][11]
 
-As a quick refresher, starting from the end of the second film, we can see that Neo is able to "feel" the sentinels and even shut them down at will. He is also destroying sentinels en masse on his way to the machine city while Trinity is driving, even though he can't even see them. People have argued that he has somehow gained access to a kind of wireless connection to the machines through his interaction with the source in the second film. I don't think this holds up as an explanation because in the third film, he is blinded by Bane (who is possessed by Smith) and we can clearly see that he is able to see Smith inside Bane's flesh even though he's blind. There are no mechanical parts in Bane, his consciousness has just been altered by Smith. Whatever effect the source had on Neo seems to transcend ordinary electronic circuits.
+As a quick refresher, starting from the end of the second film, we can see that Neo is able to "feel" the sentinels and even shut them down at will. He is also destroying sentinels en masse on his way to the machine city while Trinity is driving, even though he can't even see them. People have argued that he has somehow gained access to a kind of wireless connection to the machines through his interaction with the source in the second film. I don't think this holds up as an explanation because in the third film, he is blinded by Bane (who is possessed by Smith) and we can clearly see that he is able to see Smith in the form of golden light inside Bane's flesh even though he's blind. There are no mechanical parts in Bane, his consciousness has just been altered by Smith. Furthermore he can perceive the entire machine city as structures of golden light. Whatever effect the source had on Neo seems to transcend ordinary electronic circuits. 
 
 Below I will provide a more philosophical (and speculative) account of what the golden light is and how it connects to Neo's abilities based on material that has been released either with the movies or after them.
 If you expect a strictly mechanistic explanation of everything you will probably be disappointed. This is more of a looser attempt at putting things together and as such, we probably need to tone down the scientist in us a little bit. There are certain interpretative jumps that need to be taken which (in my view) are quite consistent with information that is presented in the movies and other media from the Wachowskis themselves. 
@@ -147,12 +147,12 @@ The most important clue is the final level of the game "The Matrix: Path of Neo"
 > then provides the world with the choice of a third path, the path of
 > Neo, the path of peace.
 
-OK, this does seem familiar, doesn't it?. I will focus on one line for the sake of brevity and the rest can be more or less understood with a little bit of extra effort.
+OK, this seems familiar, doesn't it? I will focus on one line for the sake of brevity and the rest can be more or less understood with a little bit of extra effort.
 "...accepting the totality of present consciousness which ultimately allows an evolutionary transition, transcending the Cartesian dilemma through the emergence of delimited spirit".
 
 By Cartesian dilemma, Lana refers to the mind-body duality as it manifests through the Matrix and Zion. In the trilogy, the world of the body is the world of Zion and the city of Machines. There, everything is colored in blue tones. The Matrix represents the world of the mind and is always colored in green tones (Ken Wilber highlights this repeatedly in the philosopher's commentary versions of the movies). Then Neo, by acknowledging Smith's perspective ("you were right") and surrendering leads to the emergence of spirit (golden light) and is able to reconcile the worlds of body and mind (the Matrix returns back to its normal state).
 
-As Neo ends the war and people in Zion realize that the war is over, the track playing in the background is called "Spirit of the Universe", according to the official credits.
+As Neo ends the war and people in Zion realize that the war is over, the track playing in the background is called "Spirit of the Universe" composed by Don Davis.
 Furthermore, the significance of the blue and green colors makes a subtle appearance in that last sequence. This is how the city of the machines looks like right before Neo engages in the final battle:
 [![machine city][9]][9]
 
@@ -184,7 +184,7 @@ I will just end with this post with a quote from Hegel's "Philosophy of Nature" 
 
 
   [1]: https://youtu.be/ARoKJ00cEZ8?t=4243
-  [2]: http://%20https://youtu.be/cYEcjGi_kv0?t=42
+  [2]: https://youtu.be/cYEcjGi_kv0?t=42
   [3]: https://i.stack.imgur.com/9eUXE.jpg
   [4]: https://en.wikipedia.org/wiki/Julia_set
   [5]: https://www.youtube.com/watch?v=4XXZxvw6XNs
