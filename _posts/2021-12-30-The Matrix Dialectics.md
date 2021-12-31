@@ -130,7 +130,7 @@ Universal self-conscious, where the self-conscious recognizes itself in another.
 And a few lines below:
 >A struggle to the death ensues. However, if one of the two should die, the achievement of self-consciousness fails. Hegel refers to this failure as "abstract negation" not the negation or sublation required. This death is avoided by the agreement, communication of, or subordination to, slavery.
 
-Thematically, it appears that Neo's role was essentially the role of achieving self-consciousness by engaging in a death struggle with another Smith and ultimately surrendering. In those moments, we see the shots of golden light completely overtaking Neo. At that point we're seeing the emergence of Spirit. [![enter image description here][6]][6]
+Thematically, it appears that Neo's role was essentially the role of achieving self-consciousness by engaging in a death struggle with Smith and ultimately surrendering. In those moments, we see the shots of golden light completely overtaking Neo. At that point we're seeing the emergence of Spirit. [![enter image description here][6]][6]
 
 
 You could argue that I'm reaching quite a bit to get this interpretation so let's bring some more evidence to back this up.
