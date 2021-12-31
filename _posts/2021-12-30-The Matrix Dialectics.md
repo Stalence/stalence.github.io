@@ -35,7 +35,7 @@ My central claim in this post is that the golden light is meant to symbolize <sp
 . 
 I will do my best to explain what that means and why this view makes sense. Additionally, I'll provide you with sources that support this claim and I'll briefly go over them to describe what each source suggests.
 
-<h2 style="color:rgb(255, 166, 0);">Opening Sequence</h2>
+<h2 style="color:rgb(255, 166, 0); font-family:Calibri;font-size: 22px;font-weight:100;">Opening Sequence</h2>
 
 The golden light appears in the opening sequence of the Matrix Revolutions. In the youtube video I linked, Lana explains that the opening sequence tries to provide a visual "summary" of what the film is about. You can watch the sequence [on this link][2].
 
