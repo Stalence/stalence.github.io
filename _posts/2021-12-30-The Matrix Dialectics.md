@@ -54,7 +54,7 @@ To explain this in more detail we will need to introduce some key concepts that 
 
 **Disclaimer**: I am not a philosopher and I have read about those things only in online lecture material, blog posts, and online encyclopedias. I'm sure there will be people that find this too crude or even incorrect. That's just my reading of the material and more particularly, how I think the Wachowskis understood and interpreted this material to connect it to the Matrix. Of course, I don't know them and I've never talked to them so that's just me piecing things together in a way that hopefully makes sense.
 
-<h2 style="color:rgb(255, 166, 0);">Spirit</h2>
+<h2 style="color:rgb(255, 166, 0); font-family:Calibri;font-size: 22px;font-weight:100;">Spirit</h2>
 
 So, what is spirit?
 There are multiple accounts of what constitutes spirit. One of the most widely discussed realizations of the concept comes from the philosopher [Georg Wilhelm Friedrich Hegel
