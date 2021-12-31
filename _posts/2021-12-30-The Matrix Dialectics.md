@@ -171,7 +171,7 @@ I'll leave a last quote from Lana's interview about the golden light:
 And this, is exactly why I find Revolutions to be the most ambitious sequel. It aims to provide a rather bold and idealistic account for the evolution of history in terms of the evolution of spirit. I'm not particularly spiritual in my life, but spiritual themes can be great at driving narratives in movies and this is exactly what's happening here.
 I love how the Wachowskis decided to go about this one.
 While a lot of those ideas are not explicitly detailed in the movie, this is in part because the Wachowskis did intend this to be a puzzle for people to analyze. 
-The pieces of the puzzle are there, although arguably not entirely contained in the trilogy. As a viewer, you can either decide to dismiss all of those things as arbitrary aesthetic decisions, or take into account the clues that are available and piece it all together. Now, I have left out a lot of parts that merit discussion like free will vs fate or the religious references of the movie. I may come back to write a few things about how those ideas relate to spirit, but for now this where I stop.
+The pieces of the puzzle are there, although arguably not entirely contained in the trilogy. As a viewer, you can either decide to dismiss all of those things as arbitrary aesthetic decisions, or take into account the clues that are available and piece it all together. Now, I have left out a lot of parts that merit discussion like free will vs fate or the religious references of the movie. I may come back to write a few things about how those ideas relate to spirit, but for now... it is done.
 
 I will just end with this post with a quote from Hegel's "Philosophy of Nature" which I find rather fitting:
 >All cultural change reduces itself to a difference of categories. All revolutions, whether in the sciences or world history, occur merely because spirit has changed its categories in order to understand and examine what belongs to it, in order to possess and grasp itself in a truer, deeper, more intimate and unified manner.
@@ -179,7 +179,7 @@ I will just end with this post with a quote from Hegel's "Philosophy of Nature" 
 <center>
 <iframe width="640" height="480" src="https://www.youtube.com/embed/be_z7_18d70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-It is done.
+
 
 
 
