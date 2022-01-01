@@ -395,9 +395,9 @@ h1:hover{
 	color: lighten(rgb(255, 166, 0),80);
 
 }
-// h1 {
-// 	@media #{$medium} {
-//         font-size: 26px;
-// 		color: rgb(255, 166, 0);
-// 	}
+h1 {
+	@media #{$medium} {
+        font-size: 26px;
+		color: rgb(255, 166, 0);
+	}
 
