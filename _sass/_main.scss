@@ -292,6 +292,8 @@ header .entry-meta {
 	        }
 	    }
 
+		
+
 		@media #{$medium} {
 			padding: 30px;
 
@@ -302,6 +304,15 @@ header .entry-meta {
 
 				img:hover {
 					opacity: 0.9;
+				}
+	        }
+		}
+
+		@media #{$medium} {
+			.preview-image {
+				display:block;
+				img:hover {
+					opacity: 0.8;
 				}
 	        }
 		}
