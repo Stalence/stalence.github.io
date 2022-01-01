@@ -152,7 +152,7 @@ OK, this seems familiar, doesn't it? I will focus on one line for the sake of br
 
 By Cartesian dilemma, Lana refers to the mind-body duality as it manifests through the Matrix and Zion. In the trilogy, the world of the body is the world of Zion and the city of Machines. There, everything is colored in blue tones. The Matrix represents the world of the mind and is always colored in green tones (Ken Wilber highlights this repeatedly in the philosopher's commentary versions of the movies). Then Neo, by acknowledging Smith's perspective ("you were right") and surrendering leads to the emergence of spirit (golden light) and is able to reconcile the worlds of body and mind (the Matrix returns back to its normal state).
 
-As Neo ends the war and people in Zion realize that the war is over, the track playing in the background is called "Spirit of the Universe" composed by Don Davis.
+As Neo ends the war and people in Zion realize that the war is over, the track playing in the background is called <span style="color:rgb(255, 166, 0)">"Spirit of the Universe"</span> composed by Don Davis.
 Furthermore, the significance of the blue and green colors makes a subtle appearance in that last sequence. This is how the city of the machines looks like right before Neo engages in the final battle:
 [![machine city][9]][9]
 
