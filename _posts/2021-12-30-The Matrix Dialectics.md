@@ -29,7 +29,7 @@ it becomes clear that the gold light that Neo perceives in the city of Machines 
 > of light"
 
 This is just Ken Wilber's interpretation though. However, he does point out that he has "corroborated" his interpretation with the Wachowskis to some extent. Here's what Lana had to say
-in a [recent interview][13]
+in an [interview][13]
 >If you basically work on what the trilogy is all about, you come to this symbol that is never discussed... and yet it's there clearly. The third movie actually begins with the gold light as a part of the opening title montage. As if to say that...look, this is an essential element. It's as important as the matrix code is.  
 
 My central claim in this post is that the golden light is meant to symbolize <span style="color:rgb(255, 166, 0)">spirit</span> 
