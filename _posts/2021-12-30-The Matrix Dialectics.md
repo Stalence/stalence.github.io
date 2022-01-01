@@ -6,7 +6,7 @@ subtitle: 'The significance of the golden light and why Revolutions is the most 
 tags:
   - 'The Matrix, Spirit of the Universe'
 date-string: 'December 31, 2021'
-featured-image: /images/2021-12-31/juliamatrix.jpg
+featured-image: /images/2021-12-31/juliamatrix.png
 preview-image: /images/2021-12-31/sentinel2.jpg
 published: true
 ---
