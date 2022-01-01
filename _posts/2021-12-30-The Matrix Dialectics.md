@@ -2,7 +2,7 @@
 layout: post
 categories: posts
 title: World Spirit and the Matrix Revolutions
-subtitle: 'The significance of the golden light and why Revolutions is the most ambitious film in the Matrix Trilogy'
+subtitle: 'The significance of the golden light and why Revolutions is the most ambitious film in the Matrix Trilogy.'
 tags:
   - 'The Matrix, Spirit of the Universe'
 date-string: 'December 31, 2021'
@@ -160,19 +160,27 @@ After Neo succeeds, the lights in the machine city are beginning to turn green:
 [![machine city][10]][10]
 Given Lana's words about transcending the Cartesian dilemma, it's fair to assume that this is a deliberate choice, meant to signify the unification of the worlds of mind and body.
 
+<h2 style="color:rgb(255, 166, 0); font-family:Lato;font-size: 22px;font-weight:100;">The Big Picture</h2>
+
 So, why does it even make sense to go there? What is the point of invoking all those philosophical ideas? Well, apart from serving as great literary devices, we need to remember where the Matrix started from.
 Starting with the first, the main character is forced to completely revise his framework for understanding the world as he realizes that he was trapped in a simulated reality. Upon re-evaluating his worldview and assuming the role of the one, he realizes that this new framework has to be re-evaluated as well, as it's yet another system of control laid out by the machines. Naturally, by the end of Reloaded we can wonder
 whether this process of re-evaluating the framework for understanding the world ever "bottoms out". That's where Revolutions comes. It aims to provide an account of how a kind of "ultimate knowledge" (spirit of the universe) emerges during the confrontation of entities with conflicting views and categorizations of the world. It is through those conflicts that spirit self-actualizes and Neo, along with Trinity and other key characters like the Oracle, are the vessels of this discovery in the trilogy.
 
-I'll leave a last quote from Lana's interview about the golden light:
+Lana in her interview says about the golden light:
 > That light is what the third movie is trying to solve, post deconstructing something like choice. You can say choice is important, choice is a part of everyone's lives... but that paradigm of choice is not different, it's a matrix just like Catholicism or Christianity...
 >...a tool for understanding the world, having a framework of meaning.
+
+At the grander level of this narrative, we have humans developing AI which reflects a new kind of consciousness. This type of consciousness has a completely mechanistic view of the world, and its value system
+revolves around the ability to mathematically account for everything. Their power to model the world and predict outcomes makes them view the world as predetermined. This clashes with the worldview of humans
+which stand for the values of choice and free will.  A master-slave dialectic between the humans and machines emerges. As machines shape the world through servitude to humans, they become independent of humans. From Hegel's 'Philosophy of World History':
+> "The humankind has not liberated itself from servitude but by means of servitude."
+Interestingly, this is flipped and applies to machines in the Matrix. Now, in this master-slave struggle machines gain the upper hand. In Reloaded, we learn that the Architect can not comprehend humans. He epitomizes the values of machines that are diametrically opposed to the human ones. The Oracle also explicitly tells Neo that the Architect can't understand humans.  However, we see that the Oracle begins to gain an appreciation for human nature. As we saw above, spirit emerges through an act of mutual recognition between conflicting sides. That is, the values of the machines and the values of humans would somehow have to be reconciled. This manifests with the Oracle's plan that creaties a new version of the One. The recognition of the values of the machines comes through Neo's acknowledgement of inevitability and his surrender. From the machine side, I believe that this acknowledgement is best reflected in the last line of the film. Seraph asks the Oracle if she always knew what would happen. Her response is 'No. But I believed'. We see that the oracle clearly displays values that are strictly representative of humans (hope and belief). This is exactly what allowed spirit to emerge and the peaceful coexistence of humans and machines to be achieved. 
 
 And this is exactly why I find Revolutions to be the most ambitious sequel. It provids a bold and idealistic view for the evolution of history in terms of the evolution of spirit. I'm not particularly spiritual in my life, but spiritual themes can be great at driving narratives in movies and this is what appears to be happening here.
 I love how the Wachowskis decided to go about this one.
 While a lot of those ideas are not explicitly detailed in the movie, this is in part because the Wachowskis intended this to be a puzzle for people to analyze. 
-The pieces of the puzzle are there, although arguably not entirely contained in the trilogy. As a viewer, you can either decide to dismiss all of those things as arbitrary aesthetic decisions, or take into account the clues that are available and piece it all together. It's quite likely that some of the connections I drew here are half-baked and more crisp explanations may exist. I do think that the g(e)ist of what I'm describing gets close to what the Wachowskis intended.
-I have also left out a lot of parts that merit discussion like free will vs fate or the religious references of the trilogy. 
+The pieces of the puzzle are there, although arguably not entirely contained in the trilogy. As a viewer, you can either decide to dismiss all of those things as arbitrary aesthetic decisions, or take into account the clues that are available and piece it all together. It's quite likely that some of the connections I drew here are half-baked and more crisp explanations may exist. I do think that the g(e)ist of what I'm describing gets fairly close to what the Wachowskis intended.
+I have also left out parts like the religious references of the trilogy. 
 I may come back to write a few things about how those ideas relate to spirit, but for now... it is done.
 
 I will just end this post with a quote from Hegel's "Philosophy of Nature" which I find rather fitting:
