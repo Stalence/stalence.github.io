@@ -18,7 +18,7 @@ Below I will provide a more philosophical (and speculative) account of what the 
 If you expect a strictly mechanistic explanation of everything you will probably be disappointed. This is more of a looser attempt at putting things together and as such, we probably need to tone down the scientist in us a little bit. There are certain interpretative jumps that need to be taken which (in my view) are quite consistent with information that is presented in the movies and other media from the Wachowskis themselves. 
 
 So... let's get the obvious stuff out of the way. Apart from pure curiosity, what makes the golden light worth discussing? 
-From the philosopher's commentary with Dr. Cornel West and Ken Wilber as well as the comments by Lana Wachowski in [a discussion between Lana and Ken wilber][1] (timestamped),
+From the philosopher's commentary with Dr. Cornel West and Ken Wilber as well as the comments by Lana Wachowski in [a discussion between Lana and Ken Wilber][1] (timestamped),
 it becomes clear that the gold light that Neo perceives in the city of Machines has major conceptual significance for the trilogy. 
 
 > Ken Wilber: As you know, I think it's incredibly gutsy because the whole key
@@ -42,7 +42,7 @@ The golden light appears in the opening sequence of the Matrix Revolutions. In t
 
 The sequence begins with an explosion of golden light symbolizing the Big Bang, and an emergence of fractal patterns which are most likely a rendering of a [Julia set][4]. As the camera keeps zooming inside the fractals, it eventually reaches a depiction of the machine city. Fractals exhibit self-similarity and (roughly speaking) are produced by an iterative process that converges for certain points and diverges for others. Fractals are rather generic entities that have been used in all sorts of metaphors so by themselves they're not enough to draw any solid conclusion. Following the fractals we zoom out to matrix code and a panoramic view of the matrix Megacity which looks like a symbol. So the Matrix and the Megacity appear to be layered *on top* of the golden light in this sequence.
 
-Given Lana's comments and that the golden light is shown to underlie the matrix and the megacity, it is fair to assume at this point that it's a fundamental layer of the story, and given the Big Bang depiction, of reality as presented in the matrix.
+Given Lana's comments and that the golden light is shown to underlie the matrix and the Megacity, it is fair to assume at this point that it's a fundamental layer of the story, and given the Big Bang depiction, of reality as presented in the matrix.
 How do we know it's supposed to be the Big Bang and not some flashy random explosion? Well, here's the quote from Lana in the discussion with Ken Wilber:
 
 > That was the...  in the beginning of the third movie when there's like... we're like: "How do we start the third movie? Which is gonna talk about the things that are so hard to talk about?”  It's like: Ok, you go to black and then you have to have a moment of Big Bang and that's the origin of everything, the origin of thought, the origin of consciousness, whatever it is—in that moment it's like 'from that nothing to everything' is everything... [Ken laughs]
