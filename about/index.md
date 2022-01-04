@@ -12,4 +12,4 @@ Whenever I'm not doing research, you'll find me doing parkour or bouldering. I a
 <span style="color:rgb(255, 166, 0); font-family:Calibri;font-size: 18px;font-weight:100;">Email: nikolaos(dot)karalias(at)epfl(dot)ch</span>
 
 <span style="float:left;color:rgb(255, 166, 0); font-family:Calibri;font-size: 18px;font-weight:100; display: inline-block;"> 
-Links:</span>  <a href="https://twitter.com/AspectStalence" class="fa fa-twitter" ></a>   <a href="https://scholar.google.com/citations?user=CRLG9UcAAAAJ&hl=el" class="ai ai-google-scholar-square"></a>  <a href="https://scholar.google.com/citations?user=CRLG9UcAAAAJ&hl=el" class="ai ai-google-scholar-square"></a>
+Links:</span>  <a href="https://twitter.com/AspectStalence" class="fa fa-twitter" ></a>   <a href="https://scholar.google.com/citations?user=CRLG9UcAAAAJ&hl=el" class="ai ai-google-scholar-square"></a>  
