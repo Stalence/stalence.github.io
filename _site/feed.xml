@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-05T01:23:33+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nikos Karalias</title><subtitle>Balboa Station. Watch your step</subtitle><entry><title type="html">World Spirit and the Matrix Revolutions</title><link href="http://localhost:4000/posts/2021-12-30/The-Matrix-Dialectics.html" rel="alternate" type="text/html" title="World Spirit and the Matrix Revolutions" /><published>2021-12-30T00:00:00+01:00</published><updated>2021-12-30T00:00:00+01:00</updated><id>http://localhost:4000/posts/2021-12-30/The%20Matrix%20Dialectics</id><content type="html" xml:base="http://localhost:4000/posts/2021-12-30/The-Matrix-Dialectics.html">&lt;p&gt;The Matrix franchise has been in the spotlight for the past few months due to the release of the fourth installment “The Matrix: Resurrections”. The discussions I see online have reminded me how misunderstood the sequels are. It’s no secret that I love the franchise. It’s absolutely packed with symbolism and cool ideas that over the years keep impressing me with how bold and ambitious they are. In this post, I will focus on one of the key concepts that makes its appearance in the third film: the golden light. &lt;a href=&quot;https://i.imgur.com/eNO90eB.jpg&quot;&gt;&lt;img src=&quot;https://i.imgur.com/eNO90eB.jpg&quot; alt=&quot;Machine City&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-06T00:40:44+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nikos Karalias</title><subtitle>Balboa Station. Watch your step</subtitle><entry><title type="html">Erdos goes neural</title><link href="http://localhost:4000/posts/2022-01-05/Erdos_Goes_Neural.html" rel="alternate" type="text/html" title="Erdos goes neural" /><published>2022-01-05T00:00:00+01:00</published><updated>2022-01-05T00:00:00+01:00</updated><id>http://localhost:4000/posts/2022-01-05/Erdos_Goes_Neural</id><content type="html" xml:base="http://localhost:4000/posts/2022-01-05/Erdos_Goes_Neural.html">&lt;h3 id=&quot;disclaimer&quot;&gt;Disclaimer:&lt;/h3&gt;
+&lt;p&gt;This is a brief tutorial on the probabilistic penalty method presented in our &lt;a href=&quot;https://arxiv.org/abs/2006.10643&quot;&gt;paper&lt;/a&gt;. I will be taking shortcuts in how I present it in order to make it straightforward and understandable. It does not cover the paper in its full generality. I will not explain the probabilistic method and I won’t expand on the various important details that constitute the full paper.
+Instead, I aim to provide an accessible primer into our work by minimizing the technical info and focusing on practicality/simplicity. I encourage you to read the paper and the supplementary material section for the complete treatment. Otherwise, if you’re still unsure, just email me. Without further ado, let’s get started.&lt;/p&gt;
+
+&lt;h2 id=&quot;erdos-goes-neural-a-simplified-tutorial&quot;&gt;Erdos goes neural: a simplified tutorial&lt;/h2&gt;
+
+&lt;h3 id=&quot;preliminaries&quot;&gt;Preliminaries:&lt;/h3&gt;
+&lt;p&gt;Before we start, we should clear up what the goal of this work is. The main objective is to solve combinatorial problems with neural networks, 
+&lt;strong&gt;without supervision&lt;/strong&gt; (i.e., without access to labeled solutions). We focused on graph problems but the principles of our method can be applied to other settings. Furthermore, many (combinatorial) problems have an equivalent graph formulation, so you could reformulate your problem in a graph setting if you want to be as close to what we did as possible.&lt;/p&gt;
+
+&lt;p&gt;OK, great. Now that this is out of the way, let’s talk about how we are going to get things done.
+First, let’s be a bit more specific with the setup.&lt;/p&gt;
+
+&lt;p&gt;We want a set of objects \(S\) that solves a given problem, e.g., finds the set of nodes that forms the largest possible clique on a graph (maximum clique problem). 
+Since we focused on graph problems in the paper, we will work with sets of nodes on the input graph, but you can also do sets of edges/tuples/etc. It will depend on your particular problem and what is more convenient for you. 
+&lt;strong&gt;From now on I will be talking about sets of nodes. Feel free to substitute it with edges or whatever else you need to work with.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is what we are going to need:&lt;/p&gt;
+&lt;h4 id=&quot;1-a-combinatorial-problem-with-a-nonnegative-cost-function-and-a-set-of-constraints&quot;&gt;1) A combinatorial problem with a nonnegative cost function and a set of constraints.&lt;/h4&gt;
+&lt;h4 id=&quot;2-a-neural-network-that-produces-a-probability-for-each-node-this-is-the-probability-that-the-node-belongs-to-the-set-s&quot;&gt;2) A neural network that produces a probability for each node. This is the probability that the node belongs to the set \(S\).&lt;/h4&gt;
+&lt;h4 id=&quot;3-a-differentiable-loss-function-this-loss-takes-as-input-the-probabilities-that-were-produced-by-the-network-the-loss-will-be-derived-from-your-problems-objective-i-will-explain-below&quot;&gt;3) A differentiable loss function. This loss takes as input the probabilities that were produced by the network. The loss will be derived from your problem’s objective (I will explain below).&lt;/h4&gt;
+
+&lt;h4 id=&quot;technical-detail&quot;&gt;Technical Detail:&lt;/h4&gt;
+&lt;p&gt;In the paper, we use Bernoulli variables over the nodes of the input graph. You could work with other distributions as well, but if you are unsure I recommend starting with Bernoulli  random variables over the entities you care about (over nodes/edges/tuples/etc.). We will need to derive an expectation of a function over those random variables and it happens that Bernoulli variables tend to lead to easier derivations.
+For the rest of the post \(x_i\) is a Bernoulli random variable placed on node \(i\),&lt;/p&gt;
+
+\[x_i= \begin{cases} 1, \quad \text{with probability } p_i  \\
+0, \quad \text{with probability } 1-p_i .
+\end{cases}\]
+
+&lt;h2 id=&quot;how-to-solve-it&quot;&gt;How to solve it&lt;/h2&gt;
+
+&lt;p&gt;Now, suppose you have a combinatorial problem. You need to follow the steps below.&lt;/p&gt;
+&lt;h3 id=&quot;step-1&quot;&gt;Step 1:&lt;/h3&gt;
+&lt;p&gt;Write down the cost function of your problem, for example in our paper we consider the maximum clique problem.
+Here is the standard way of expressing it:&lt;/p&gt;
+&lt;h4 id=&quot;maximize-weights-subject-to-s-is-a-clique&quot;&gt;maximize weight(\(S\)), subject to: \(S\) is a clique.&lt;/h4&gt;
+&lt;p&gt;For a simple undirected graph, weight(S) (henceforth \(w(S)\)) just counts the number of edges in the subgraph induced by S. 
+To be in line with the paper, we need to switch to a  minimization problem, hence:&lt;/p&gt;
+&lt;h4 id=&quot;minimize-gamma-ws-subject-to-s-is-a-clique&quot;&gt;minimize \(\gamma-w(S)\), subject to: \(S\) is a clique.&lt;/h4&gt;
+&lt;p&gt;\(\gamma\) here is a sufficiently large constant;  Let \(\gamma \geq \text{max}_{S}(w(S))\), so that the expression remains always nonnegative.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-2&quot;&gt;Step 2:&lt;/h3&gt;
+&lt;p&gt;Set up a graph neural network (the choice of model depends on the task and engineering considerations) for your data. Using any of the mainstream
+GNNs (GIN, GAT, etc.) should be fine to start with.
+The GNN takes as input some node features. Its output is an N x 1 vector of probabilities, one for each node.
+For the specifics on features, layers, normalizations, etc. you can just look at the code in the repo. Or you may improve upon the pipeline by working with your own features, layers, etc.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-3&quot;&gt;Step 3:&lt;/h3&gt;
+&lt;p&gt;Derive a differentiable loss.
+The differentiable loss function has to look like this:&lt;/p&gt;
+&lt;h4 id=&quot;loss--expected-cost--beta--ps-does-not-satisfy-constraints&quot;&gt;Loss = Expected Cost + beta * P(S does not satisfy constraints).&lt;/h4&gt;
+&lt;p&gt;beta here is a coefficient that controls the importance of the constraint in the loss. 
+The expectation of the cost can be straightforward for many set functions. 
+For the Prob(S does not satisfy constraints)  term (henceforth \(P(S \notin \Omega)\)), we can use Markov’s inequality to bound it.&lt;/p&gt;
+
+&lt;h3 id=&quot;example&quot;&gt;Example:&lt;/h3&gt;
+&lt;p&gt;First, derive the expected cost. In our max-clique example, \(\text{cost} = \gamma-w(S)\).
+\(\gamma\) is just a constant so \(E[cost] = \gamma - E[w(S)]\).
+We have \(w(S) = \sum_{(i,j) \in E}x_i x_j\) where \(E\) is the set of edges of the graph.&lt;/p&gt;
+
+&lt;p&gt;In other words, an edge \((i,j)\) is in  \(S\) if both endpoints \(i\) and \(j\) are in  \(S\)S.
+We are using Bernoulli variables, therefore:
+\(E[w(S)] = \sum_{(i,j)\in E}p_i p_j.\)&lt;/p&gt;
+
+&lt;p&gt;OK, now onto the constraint part of the loss.
+For the maximum clique problem, the constraint dictates that &lt;strong&gt;the subgraph induced by S is a clique&lt;/strong&gt;, i.e, all pairs of nodes in S are connected by an edge.
+An equivalent way to phrase this is that, &lt;strong&gt;there are no edges in the complement of the subgraph induced by S&lt;/strong&gt;.
+Let \(\bar{S}\) be the complement of S. Then,&lt;/p&gt;
+&lt;h4 id=&quot;ps-notin-omega---pwbars1&quot;&gt;\(P(S \notin \Omega)  = P(w(\bar{S})&amp;gt;=1).\)&lt;/h4&gt;
+&lt;p&gt;From Markov’s inequality, this can be bounded as follows&lt;/p&gt;
+&lt;h4 id=&quot;pwbars1-leq-ewbars&quot;&gt;\(P(w(\bar{S})&amp;gt;=1) \leq E[w(\bar{S})].\)&lt;/h4&gt;
+&lt;p&gt;So our loss ends up being&lt;/p&gt;
+&lt;h4 id=&quot;textloss--gamma---ews--beta-ewbars&quot;&gt;\(\text{Loss} = \gamma - E[w(S)] + \beta E[w(\bar{S})].\)&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-4&quot;&gt;Step 4:&lt;/h3&gt;
+&lt;p&gt;Train the network using the derived loss. This is straightforward because you just have to plug in the probabilities in the expression and do backprop.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-5&quot;&gt;Step 5:&lt;/h3&gt;
+&lt;p&gt;Retrieve the set \(S\) from the probabilities of the network using the method of conditional expectation.
+It works as follows.&lt;/p&gt;
+
+&lt;p&gt;Sort the nodes according to their probabilities.
+Starting from the high probability nodes, for each node v_i do:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Evaluate the loss for \(p_i=1\) and for \(p_i=0\).&lt;/li&gt;
+  &lt;li&gt;Set  \(p_i\) to either 1 or 0 depending on what achieved the better loss.&lt;/li&gt;
+  &lt;li&gt;Move on to the next node and repeat from step 1.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When this is done, you should have a binary (indicator) vector that represents your set \(S\), which is the solution to your problem.
+Congrats! That’s it, you’re done.&lt;/p&gt;</content><author><name></name></author><category term="posts" /><category term="Erdős goes neural, Combinatorial Optimization, Neural Networks" /><summary type="html">Disclaimer: This is a brief tutorial on the probabilistic penalty method presented in our paper. I will be taking shortcuts in how I present it in order to make it straightforward and understandable. It does not cover the paper in its full generality. I will not explain the probabilistic method and I won’t expand on the various important details that constitute the full paper. Instead, I aim to provide an accessible primer into our work by minimizing the technical info and focusing on practicality/simplicity. I encourage you to read the paper and the supplementary material section for the complete treatment. Otherwise, if you’re still unsure, just email me. Without further ado, let’s get started.</summary></entry><entry><title type="html">World Spirit and the Matrix Revolutions</title><link href="http://localhost:4000/posts/2021-12-30/The-Matrix-Dialectics.html" rel="alternate" type="text/html" title="World Spirit and the Matrix Revolutions" /><published>2021-12-30T00:00:00+01:00</published><updated>2021-12-30T00:00:00+01:00</updated><id>http://localhost:4000/posts/2021-12-30/The%20Matrix%20Dialectics</id><content type="html" xml:base="http://localhost:4000/posts/2021-12-30/The-Matrix-Dialectics.html">&lt;p&gt;The Matrix franchise has been in the spotlight for the past few months due to the release of the fourth installment “The Matrix: Resurrections”. The discussions I see online have reminded me how misunderstood the sequels are. It’s no secret that I love the franchise. It’s absolutely packed with symbolism and cool ideas that over the years keep impressing me with how bold and ambitious they are. In this post, I will focus on one of the key concepts that makes its appearance in the third film: the golden light. &lt;a href=&quot;https://i.imgur.com/eNO90eB.jpg&quot;&gt;&lt;img src=&quot;https://i.imgur.com/eNO90eB.jpg&quot; alt=&quot;Machine City&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;As a quick refresher, starting from the end of the second film, we can see that Neo is able to “feel” the sentinels and even shut them down at will. He is also destroying sentinels en masse on his way to the machine city while Trinity is driving, even though he can’t even see them. People have argued that he has somehow gained access to a kind of wireless connection to the machines through his interaction with the source in the second film. I don’t think this holds up as an explanation because in the third film, he is blinded by Bane (who is possessed by Smith) and we can clearly see that he is able to see Smith in the form of golden light inside Bane’s flesh even though he’s blind. There are no mechanical parts in Bane (well, except for the holes I suppose), his consciousness has just been altered by Smith. Furthermore, he can perceive the entire machine city as formations of golden light. Whatever effect the source had on Neo seems to transcend ordinary electronic circuits.&lt;/p&gt;
 
