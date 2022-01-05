@@ -199,6 +199,21 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a 
 .ai{
     padding-right: 14px!important;
 }
+.shadertoy{
+	padding: 0px;  
+	width: 64px ;
+	height: 54px;
+	//filter:grayscale(80%);
+	background-color: #F2992E;
+	border-radius: 25px;
+	//margin: -25px 2px;  
+	margin-bottom: 22px;
+
+}
+.shadertoy:hover{
+	//filter: invert(100%);
+	background-color: #ffffff;
+}
 // .fa-twitter {  
 //   background: $base-color;  
 //   color: #F2992E;  
