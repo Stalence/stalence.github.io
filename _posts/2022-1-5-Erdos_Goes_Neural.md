@@ -102,7 +102,7 @@ Retrieve the set $$S$$ from the probabilities of the network using the method of
 It works as follows.
 
 Sort the nodes according to their probabilities.
-Starting from the high probability nodes, for each node v_i do:
+Starting from the high probability nodes, for each node $$v_i$$ do:
 
 
   1. Evaluate the loss for $$p_i=1$$ and for $$p_i=0$$.
