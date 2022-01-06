@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-06T00:40:44+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nikos Karalias</title><subtitle>Balboa Station. Watch your step</subtitle><entry><title type="html">Erdos goes neural</title><link href="http://localhost:4000/posts/2022-01-05/Erdos_Goes_Neural.html" rel="alternate" type="text/html" title="Erdos goes neural" /><published>2022-01-05T00:00:00+01:00</published><updated>2022-01-05T00:00:00+01:00</updated><id>http://localhost:4000/posts/2022-01-05/Erdos_Goes_Neural</id><content type="html" xml:base="http://localhost:4000/posts/2022-01-05/Erdos_Goes_Neural.html">&lt;h3 id=&quot;disclaimer&quot;&gt;Disclaimer:&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-06T15:28:58+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nikos Karalias</title><subtitle>Balboa Station. Watch your step</subtitle><entry><title type="html">Erdos goes neural</title><link href="http://localhost:4000/posts/2022-01-05/Erdos_Goes_Neural.html" rel="alternate" type="text/html" title="Erdos goes neural" /><published>2022-01-05T00:00:00+01:00</published><updated>2022-01-05T00:00:00+01:00</updated><id>http://localhost:4000/posts/2022-01-05/Erdos_Goes_Neural</id><content type="html" xml:base="http://localhost:4000/posts/2022-01-05/Erdos_Goes_Neural.html">&lt;h3 id=&quot;disclaimer&quot;&gt;Disclaimer:&lt;/h3&gt;
 &lt;p&gt;This is a brief tutorial on the probabilistic penalty method presented in our &lt;a href=&quot;https://arxiv.org/abs/2006.10643&quot;&gt;paper&lt;/a&gt;. I will be taking shortcuts in how I present it in order to make it straightforward and understandable. It does not cover the paper in its full generality. I will not explain the probabilistic method and I won’t expand on the various important details that constitute the full paper.
 Instead, I aim to provide an accessible primer into our work by minimizing the technical info and focusing on practicality/simplicity. I encourage you to read the paper and the supplementary material section for the complete treatment. Otherwise, if you’re still unsure, just email me. Without further ado, let’s get started.&lt;/p&gt;
 
@@ -51,8 +51,8 @@ For the specifics on features, layers, normalizations, etc. you can just look at
 &lt;h3 id=&quot;step-3&quot;&gt;Step 3:&lt;/h3&gt;
 &lt;p&gt;Derive a differentiable loss.
 The differentiable loss function has to look like this:&lt;/p&gt;
-&lt;h4 id=&quot;loss--expected-cost--beta--ps-does-not-satisfy-constraints&quot;&gt;Loss = Expected Cost + beta * P(S does not satisfy constraints).&lt;/h4&gt;
-&lt;p&gt;beta here is a coefficient that controls the importance of the constraint in the loss. 
+&lt;h4 id=&quot;loss--expected-cost--beta--ps-does-not-satisfy-constraints&quot;&gt;Loss = Expected Cost + \(\beta\) * P(S does not satisfy constraints).&lt;/h4&gt;
+&lt;p&gt;\(\beta\) here is a coefficient that controls the importance of the constraint in the loss. 
 The expectation of the cost can be straightforward for many set functions. 
 For the Prob(S does not satisfy constraints)  term (henceforth \(P(S \notin \Omega)\)), we can use Markov’s inequality to bound it.&lt;/p&gt;
 
@@ -61,7 +61,7 @@ For the Prob(S does not satisfy constraints)  term (henceforth \(P(S \notin \Ome
 \(\gamma\) is just a constant so \(E[cost] = \gamma - E[w(S)]\).
 We have \(w(S) = \sum_{(i,j) \in E}x_i x_j\) where \(E\) is the set of edges of the graph.&lt;/p&gt;
 
-&lt;p&gt;In other words, an edge \((i,j)\) is in  \(S\) if both endpoints \(i\) and \(j\) are in  \(S\)S.
+&lt;p&gt;In other words, an edge \((i,j)\) is in  \(S\) if both endpoints \(i\) and \(j\) are in  \(S\).
 We are using Bernoulli variables, therefore:
 \(E[w(S)] = \sum_{(i,j)\in E}p_i p_j.\)&lt;/p&gt;
 
@@ -86,7 +86,7 @@ Let \(\bar{S}\) be the complement of S. Then,&lt;/p&gt;
 It works as follows.&lt;/p&gt;
 
 &lt;p&gt;Sort the nodes according to their probabilities.
-Starting from the high probability nodes, for each node v_i do:&lt;/p&gt;
+Starting from the high probability nodes, for each node \(v_i\) do:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Evaluate the loss for \(p_i=1\) and for \(p_i=0\).&lt;/li&gt;

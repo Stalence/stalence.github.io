@@ -164,8 +164,8 @@ For the specifics on features, layers, normalizations, etc. you can just look at
 <h3 id="step-3">Step 3:</h3>
 <p>Derive a differentiable loss.
 The differentiable loss function has to look like this:</p>
-<h4 id="loss--expected-cost--beta--ps-does-not-satisfy-constraints">Loss = Expected Cost + beta * P(S does not satisfy constraints).</h4>
-<p>beta here is a coefficient that controls the importance of the constraint in the loss. 
+<h4 id="loss--expected-cost--beta--ps-does-not-satisfy-constraints">Loss = Expected Cost + \(\beta\) * P(S does not satisfy constraints).</h4>
+<p>\(\beta\) here is a coefficient that controls the importance of the constraint in the loss. 
 The expectation of the cost can be straightforward for many set functions. 
 For the Prob(S does not satisfy constraints)  term (henceforth \(P(S \notin \Omega)\)), we can use Markov’s inequality to bound it.</p>
 
@@ -174,7 +174,7 @@ For the Prob(S does not satisfy constraints)  term (henceforth \(P(S \notin \Ome
 \(\gamma\) is just a constant so \(E[cost] = \gamma - E[w(S)]\).
 We have \(w(S) = \sum_{(i,j) \in E}x_i x_j\) where \(E\) is the set of edges of the graph.</p>
 
-<p>In other words, an edge \((i,j)\) is in  \(S\) if both endpoints \(i\) and \(j\) are in  \(S\)S.
+<p>In other words, an edge \((i,j)\) is in  \(S\) if both endpoints \(i\) and \(j\) are in  \(S\).
 We are using Bernoulli variables, therefore:
 \(E[w(S)] = \sum_{(i,j)\in E}p_i p_j.\)</p>
 
@@ -199,7 +199,7 @@ Let \(\bar{S}\) be the complement of S. Then,</p>
 It works as follows.</p>
 
 <p>Sort the nodes according to their probabilities.
-Starting from the high probability nodes, for each node v_i do:</p>
+Starting from the high probability nodes, for each node \(v_i\) do:</p>
 
 <ol>
   <li>Evaluate the loss for \(p_i=1\) and for \(p_i=0\).</li>
