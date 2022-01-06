@@ -66,8 +66,8 @@ For the specifics on features, layers, normalizations, etc. you can just look at
 ### Step 3:
 Derive a differentiable loss.
 The differentiable loss function has to look like this:
-#### Loss = Expected Cost + beta * P(S does not satisfy constraints).
-beta here is a coefficient that controls the importance of the constraint in the loss. 
+#### Loss = Expected Cost + $$\beta$$ * P(S does not satisfy constraints).
+$$\beta$$ here is a coefficient that controls the importance of the constraint in the loss. 
 The expectation of the cost can be straightforward for many set functions. 
 For the Prob(S does not satisfy constraints)  term (henceforth $$ P(S \notin \Omega) $$), we can use Markov's inequality to bound it. 
 
@@ -77,7 +77,7 @@ $$\gamma$$ is just a constant so $$E[cost] = \gamma - E[w(S)]$$.
 We have $$w(S) = \sum_{(i,j) \in E}x_i x_j$$ where $$E$$ is the set of edges of the graph.
 
 
-In other words, an edge $$(i,j)$$ is in  $$S$$ if both endpoints $$i$$ and $$j$$ are in  $$S$$S.
+In other words, an edge $$(i,j)$$ is in  $$S$$ if both endpoints $$i$$ and $$j$$ are in  $$S$$.
 We are using Bernoulli variables, therefore:
 $$ E[w(S)] = \sum_{(i,j)\in E}p_i p_j. $$
 
