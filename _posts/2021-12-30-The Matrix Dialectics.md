@@ -193,8 +193,6 @@ I will just end this post with a quote from Hegel's "Philosophy of Nature" which
 
 
 
-
-
   [1]: https://youtu.be/ARoKJ00cEZ8?t=4243
   [2]: https://youtu.be/cYEcjGi_kv0?t=42
   [3]: https://i.stack.imgur.com/9eUXE.jpg
