@@ -2,7 +2,7 @@
 layout: post
 categories: posts
 title: World Spirit and the Matrix Revolutions
-subtitle: 'The significance of the golden light and why Revolutions is the most ambitious film in the Matrix Trilogy.'
+subtitle: 'Why Revolutions is the most ambitious film in the Matrix Trilogy.'
 tags:
   - 'The Matrix, Spirit of the Universe'
 date-string: 'December 31, 2021'
