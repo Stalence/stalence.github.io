@@ -106,7 +106,7 @@ to the creation of antithesis (Smith). How the contradiction (and therefore Smit
 <h2 style="color:rgb(255, 166, 0); font-family:Calibri;font-size: 22px;font-weight:100;">Master-Slave Dialectic</h2>
 
 Now back into the evolution of spirit.
-Hegel in "The Phenomenology of Spirit" explained that consciousness of individuals culminates into spirit through interactions with other individual consciousness. This happens
+Hegel in "The Phenomenology of Spirit" explained that consciousness of individuals culminates into spirit through interactions with other individual consciousnesses. This happens
 when one consciousness is able to *recognize* another consciousness and place it on equal footing with itself. This occurs in history through the Master-Slave dialectic. In
 the article "Hegel’s Master-Slave Dialectic: the search for self-consciousness" by J.D. Feilmeier we read:
 
@@ -189,8 +189,7 @@ I may come back to write a few things about how those ideas relate to spirit, bu
 I will just end this post with a quote from Hegel's "Philosophy of Nature" which I find rather fitting:
 >All cultural change reduces itself to a difference of categories. All revolutions, whether in the sciences or world history, occur merely because spirit has changed its categories in order to understand and examine what belongs to it, in order to possess and grasp itself in a truer, deeper, more intimate and unified manner.
 
-<center>
-<iframe width="800" height="480" src="https://www.youtube.com/embed/be_z7_18d70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<iframe width="800" height="480" src="https://www.youtube.com/embed/dqXTGSK_iBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
