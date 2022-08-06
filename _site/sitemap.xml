@@ -27,4 +27,8 @@
 <loc>http://localhost:4000/admin/</loc>
 <lastmod>2021-07-05T01:58:17+02:00</lastmod>
 </url>
+<url>
+<loc>http://localhost:4000/analytics.html</loc>
+<lastmod>2022-08-07T00:35:11+02:00</lastmod>
+</url>
 </urlset>

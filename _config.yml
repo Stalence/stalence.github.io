@@ -23,6 +23,9 @@ permalink: /:categories/:year-:month-:day/:title.html
 # Amount of post to show on home page
 paginate: 5
 
+
+# Google Analytics
+google_analytics: 326268286
 #kramdown:
 #  input: GFM
 #  auto_ids: true
