@@ -6,6 +6,10 @@
 
 <head>
     {% include head.html %}
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include google-analytics.html %}
+    {% endif %}
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5Q79272JD"></script>
     <script>
