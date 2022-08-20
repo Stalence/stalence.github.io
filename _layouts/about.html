@@ -5,6 +5,16 @@
 <!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
 
 <head>
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5Q79272JD"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-D5Q79272JD');
+    </script>
+
     {% include head.html %}
     <!-- HEADER IMAGE -->
    <center>
@@ -46,7 +56,7 @@
 
             <!-- POST CONTENT -->
             <div  markdown="1" class="entry-content">
-                <img src="{{ page.featured-image}}" style=" position: relative; z-index: 10; width:160px; height: 200px; border: 1px; float:left;padding-right: 20px; margin-top: 8px;">
+                <img src="{{ page.featured-image}}" style=" position: relative; z-index: 10; width:200px; height: 200px; border: 1px; float:left;padding-right: 20px; margin-top: 8px;">
                 {{ page.content| markdownify | liquify }}
             </div>
 
