@@ -193,11 +193,11 @@ I will just end this post with a quote from Hegel's "Philosophy of Nature" which
 
 
 
-  [1]: https://youtu.be/ARoKJ00cEZ8?t=4243
+  [1]: https://www.matrixfans.net/symbolism-philosophy-and-allegory/the-many-meanings-of-the-matrix/
   [2]: https://youtu.be/cYEcjGi_kv0?t=42
   [3]: https://i.stack.imgur.com/9eUXE.jpg
   [4]: https://en.wikipedia.org/wiki/Julia_set
-  [5]: https://www.youtube.com/watch?v=4XXZxvw6XNs
+  [5]: https://youtu.be/LQYGbuxYgGg?t=314
   [6]: https://i.stack.imgur.com/8cUUh.jpg
   [7]: https://i.imgur.com/SexHdvh.jpg
   [8]: https://en.wikipedia.org/wiki/Master%E2%80%93slave_dialectic
