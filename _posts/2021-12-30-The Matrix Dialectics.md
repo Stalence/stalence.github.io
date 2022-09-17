@@ -18,7 +18,7 @@ Below I will provide a more philosophical (and speculative) account of what the 
 If you expect a strictly mechanistic explanation of everything you will probably be disappointed. This is more of a loose attempt at putting things together and as such, we probably need to tone down the scientist in us a little bit. There are certain interpretative jumps that need to be taken which (in my view) are quite consistent with information that is presented in the movies and other media from the Wachowskis themselves. 
 
 So... let's get the obvious stuff out of the way. Apart from pure curiosity, what makes the golden light worth discussing? 
-From the philosopher's commentary with Dr. Cornel West and Ken Wilber as well as the comments by Lana Wachowski in [a discussion between Lana and Ken Wilber][1] (timestamped),
+From the philosopher's commentary with Dr. Cornel West and Ken Wilber as well as the comments by Lana Wachowski in [a discussion between Lana and Ken Wilber][1],
 it becomes clear that the gold light that Neo perceives in the city of Machines has major conceptual significance for the trilogy. 
 
 > Ken Wilber: As you know, I think it's incredibly gutsy because the whole key
