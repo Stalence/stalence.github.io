@@ -3,6 +3,8 @@ layout: publications
 categories: posts
 title: Publications
 ---
+* Karalias, N., Robinson, J., Loukas, A., & Jegelka, S. (2022). Neural Set Function Extensions: Learning with Discrete Functions in High Dimensions. NeurIPS 2022. ([arxiv][11])
+
 * Karalias, N., & Loukas, A. (2020, January). Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimization on Graphs. In NeurIPS ([arxiv][6], [code][1], [blogpost][2], [short presentation][3], [podcast][4], [bibtex][5])
 
 * Bouritsas, G., Loukas, A., Karalias, N., & Bronstein, M. (2021). Partition and Code: learning how to compress graphs. Advances in Neural Information Processing Systems, 34. ([arxiv][8], [code][7], [slides][10], [bibtex][9])
@@ -17,3 +19,4 @@ title: Publications
 [8]: https://arxiv.org/abs/2107.01952
 [9]: https://github.com/gbouritsas/PnC#citation
 [10]: https://drive.google.com/file/d/1BShQTbSGei0AuoTV1b46GcXU1unRHerD/view?usp=sharing
+[11]: https://arxiv.org/abs/2208.04055
