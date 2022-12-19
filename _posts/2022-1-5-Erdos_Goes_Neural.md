@@ -1,10 +1,12 @@
 ---
 layout: post
 categories: posts
-title:  Erdos goes neural
+title:  Erdos Goes Neural
 subtitle: 'The probabilistic method for neural combinatorial optimization.'
 tags:
-  - 'Erdős goes neural, Combinatorial Optimization, Neural Networks'
+  - Erdős goes neural
+  - Combinatorial Optimization
+  - Neural Networks
 date-string: 'January 5, 2022'
 featured-image: /images/erdos_neural/erdos6.jpg
 preview-image: images/erdos_neural/erdos5.jpg

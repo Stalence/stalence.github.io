@@ -4,7 +4,8 @@ categories: posts
 title: World Spirit and the Matrix Revolutions
 subtitle: 'Why Revolutions is the most ambitious film in the Matrix Trilogy.'
 tags:
-  - 'The Matrix, Spirit of the Universe'
+  - The Matrix
+  - Spirit of the Universe
 date-string: 'December 31, 2021'
 featured-image: /images/2021-12-31/juliamatrix.png
 preview-image: /images/2021-12-31/sentinel2.jpg
