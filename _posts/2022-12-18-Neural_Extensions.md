@@ -8,7 +8,7 @@ tags:
   - Neural Networks
   - Combinatorial optimization
 date-string: 'December 18, 2022'
-featured-image: /images/extensions/lovasz.jpg
+featured-image: /images/extensions/Lovász.jpg
 preview-image: /images/extensions/geometry2.jpg
 published: true
 ---
@@ -36,7 +36,7 @@ These are all valid approaches that could make sense in certain scenarios. Here,
 ### What is a scalar set function extension? It is simply a new differentiable function $$ \mathfrak{F}: [0,1]^n \rightarrow \mathbb{R} $$  which *extends* the discrete domain of the original function to a continuous domain. We will define it as the expected value of the function $$f$$ over a distribution of sets encoded by $$\mathbf{x}$$.
 
 That means that we will be going from a function defined on the corners of the hypercube $$ \{0,1\}^n$$ to a function defined on the whole hypercube $$[0,1]^n$$.
-The main objective of the paper is to provide a foundation for this approach. It is a general framework for constructing continuous extensions of discrete functions defined on sets, that can be *deterministically* computed, even when we're only given black-box access to $$f$$. The paper presents multiple extensions that originate from a common mathematical formulation. Some are already known like the Lovasz extension, and others are new, like the bounded cardinality Lovasz extension. Furthermore, we provide a way to not only extend to continuous domains, but also onto *high-dimensional* ones. We will explore this in an upcoming post (part 2 of the series).
+The main objective of the paper is to provide a foundation for this approach. It is a general framework for constructing continuous extensions of discrete functions defined on sets, that can be *deterministically* computed, even when we're only given black-box access to $$f$$. The paper presents multiple extensions that originate from a common mathematical formulation. Some are already known like the Lovász extension, and others are new, like the bounded cardinality Lovász extension. Furthermore, we provide a way to not only extend to continuous domains, but also onto *high-dimensional* ones. We will explore this in an upcoming post (part 2 of the series).
 <hr>
 
 ## Scalar extensions explained
@@ -66,19 +66,19 @@ the coefficients $$a_i$$ in the sum that defines $$ \mathfrak{F}(\mathbf{x}) $$.
 
 
 ### How do we find sets $$S_i$$ and their coefficients $$a_i$$? 
-In the paper we provide multiple examples of scalar extensions. Each one comes with its own way of computing sets $$S_i$$ and their probabilities $$a_i$$. Crucially, the coefficients $$a_i$$ depend continuously on $$\mathbf{x}$$ which allows us to do backpropagation.  The 'cheapest' extensions that require only black-box access to the function $$ f $$ are the Lovasz extension, the bounded-cardinality Lovasz extension, the singleton, and the permutation/involutory extensions.
+In the paper we provide multiple examples of scalar extensions. Each one comes with its own way of computing sets $$S_i$$ and their probabilities $$a_i$$. Crucially, the coefficients $$a_i$$ depend continuously on $$\mathbf{x}$$ which allows us to do backpropagation.  The 'cheapest' extensions that require only black-box access to the function $$ f $$ are the Lovász extension, the bounded-cardinality Lovász extension, the singleton, and the permutation/involutory extensions.
 These all require $$n+1$$ sets (including the empty set) and coefficients.  Before I go into specific extensions and how to compute them, I want to emphasize that the key point to remember is that you could find your own extensions by figuring out ways to express continuous points as convex combinations of discrete points. I may discuss some general strategies for this in a future post but for now I will just leave it at that.
 <hr>
 
-## In practice: The Lovasz extension
-The Lovasz extension is well known in the fields of discrete analysis/optimization and submodularity. It has various particularly nice properties but perhaps the most important one is that iff $$f$$ is a [submodular function][4], then the Lovasz extension of $$f$$ is convex. Examples of submodular functions include graph cuts, coverage functions, rank functions, and so on. 
-Computing the Lovasz extension is straightforward.
+## In practice: The Lovász extension
+The Lovász extension is well known in the fields of discrete analysis/optimization and submodularity. It has various particularly nice properties but perhaps the most important one is that iff $$f$$ is a [submodular function][4], then the Lovász extension of $$f$$ is convex. Examples of submodular functions include graph cuts, coverage functions, rank functions, and so on. 
+Computing the Lovász extension is straightforward.
 First, we index the entries of $$\mathbf{x}$$ in sorted, decreasing order: $$ x_i \geq x_{i+1} $$ for $$i=1,2,\dots , n-1$$. That means that $$ x_1 $$ corresponds to the dimension with the largest entry in $$\mathbf{x}$$, $$x_2$$ to the second largest, and so on.
-The coefficients and the sets of the Lovasz extension are then defined as follows:
+The coefficients and the sets of the Lovász extension are then defined as follows:
 ### $$a_i = x_i - x_{i+1}$$
 ### $$S_i = \{1:i \} $$.
 Here, I'm using a bit of coding notation with $$1:i$$ to indicate "all elements up to $$i$$".
-Given the sets and their coefficients, the Lovasz extension is computed by
+Given the sets and their coefficients, the Lovász extension is computed by
 ### $$ \mathfrak{F}(\mathbf{x}) = \displaystyle \sum_{i=1}^{n}  (x_i - x_{i+1})f( \{1: i \} ) $$.
 Clearly, $$ a_i $$ are differentiable with respect to $$\mathbf{x}$$ as they're just pairwise differences of the coordinates of $$ \mathbf{x}$$.
 To make things concrete, let's do the calculation to find sets and coefficients for our example vector from before: $$\mathbf{x} = \begin{bmatrix} 0.3 & 0.5 & 0.2\end{bmatrix}$$.
@@ -96,7 +96,7 @@ A standard use case for extensions in practice is when we have some kind of quan
 ## Combinatorial objectives
 Let's look at a simple application of extensions to combinatorial optimization. Consider the graph cut function. It is a submodular set function, that given a set $$S$$ of nodes in an input graph $$G$$, it counts the number of edges that have one endpoint inside $$S$$ and one endpoint outside of $$S$$ in the graph. It is known that finding a set that maximizes the graph cut is an NP-Hard problem. Minimizing it is by default in $$P$$ (can you guess why?), however adding a simple cardinality constraint can make minimization NP-Hard as well. A way to tackle the problem of optimizing the cut (either min or max) could be to provide a graph instance on $$n $$ nodes to a neural network and then generate some scores for the nodes of the graph $$\mathbf{x} \in [0,1]^n$$. That's where the extensions come in. Here we can use the extension of the graph cut function as a loss function to optimize. Then we can backpropagate through the neural network scores $$\mathbf{x}$$ and update the parameters of the network using the extension as a loss function. Normally, that wouldn't be possible because we wouldn't be able to backpropagate through an arbitrary set function. 
 
-Now, the graph cut function happens to admit a bunch of continuous relaxations that are well known. One of those is the graph total variation $$TV(\mathbf{x};G) = \displaystyle\sum_{(x_i>x_j)} (x_i-x_j)w_{i,j}  $$, where $$w_{i,j}$$ is the weight for any edge $$(i,j)$$ in the graph $$G$$. It turns out that the Lovasz Extension of the graph cut function is precisely the TV function so this is a case where a bespoke relaxation is naturally absorbed in our framework. However, the same trick could be done for any other combinatorial problem. Take its objective function $$g(S)$$ and a function that encodes the constraint $$c(S)$$. For instance, for the maximum clique problem, $$g(S)$$ is the number of nodes of $$S$$, which we seek to maximize. The constraint $$c(S)$$ on the other hand can just be a binary signal, it can be defined as follows:
+Now, the graph cut function happens to admit a bunch of continuous relaxations that are well known. One of those is the graph total variation $$TV(\mathbf{x};G) = \displaystyle\sum_{(x_i>x_j)} (x_i-x_j)w_{i,j}  $$, where $$w_{i,j}$$ is the weight for any edge $$(i,j)$$ in the graph $$G$$. It turns out that the Lovász Extension of the graph cut function is precisely the TV function so this is a case where a bespoke relaxation is naturally absorbed in our framework. However, the same trick could be done for any other combinatorial problem. Take its objective function $$g(S)$$ and a function that encodes the constraint $$c(S)$$. For instance, for the maximum clique problem, $$g(S)$$ is the number of nodes of $$S$$, which we seek to maximize. The constraint $$c(S)$$ on the other hand can just be a binary signal, it can be defined as follows:
 ### $$c(S) = \begin{cases} 1 \; \text{if the set is a clique,} \\ 0 \; \text{ otherwise.} \end{cases} $$
 Then we may combine $$c$$ and $$g$$ into $$f(S) = c(S)g(S)$$. This is now a discrete set function which we can attempt to maximize in order to solve the maximum clique problem. We compute its continuous extension and use that as a loss function in order to find a score vector $$\mathbf{x}$$ that encodes a distribution of sets $$S$$ that best solves the problem.
 
