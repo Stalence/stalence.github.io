@@ -223,6 +223,7 @@ Based on the ranking of the elements, we will have the following sets</p>
 
 <p>That’s pretty much it. In the paper we apply those steps to do combinatorial optimization but we also show how they can be used for image classification by defining an extension for the discrete training error function (the possible input subsets there are just the \(n\) possible class labels that are represented by one-hot binary vectors). From brief discussions I’ve had 
 at NeurIPS 2022, it seems like this kind of trick could be applied to other settings like NLP or VAEs. Those applications are left as an exercise to the reader :).</p>
+<hr />
 
 <h2 id="to-be-continued-neural-extensions">To be continued: Neural Extensions</h2>
 <p>Conceptually, this post has dealt with the first half of the paper. I intentionally avoided discussing the meaning of the word <em>scalar</em> in the subtitle of the post. The characterization of <em>scalar</em> set function extensions has to do with the domain of the extension. If the extensions work the hypercube like \(\{0,1\}^n \rightarrow  [0,1]^n\), we are assigning a single scalar continuous score to each item among \(n\) items. In part 2 of this series, we will see how we can stretch the definition of extensions to allow for extensions of the form \(\{0,1\}^n \rightarrow  [0,1]^{n \times d}\), i.e., \(d\)-dimensional embeddings for each item, which is usually the kind of representation that the layers of a neural network operate with (\(d\) would just be the width of a NN). 
