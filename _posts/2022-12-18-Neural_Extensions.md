@@ -10,29 +10,33 @@ tags:
 date-string: 'December 18, 2022'
 featured-image: /images/extensions/lovasz.jpg
 preview-image: /images/extensions/geometry2.jpg
-published: true
+published: false
 ---
-This post is meant to serve as an intuitive and practical explainer of our recent work on [neural set function extensions][1], recently presented at NeurIPS 2022. As in previous posts, I will be skipping potentially important details in the interest of brevity and understandability. For the full details, I recommend reading the paper or even just emailing me. Now, let's get started.
+This post is meant to serve as an intuitive and practical explainer of our work on [neural set function extensions][1], recently presented at NeurIPS 2022. As in previous posts, I will be skipping potentially important details in the interest of brevity and understandability. For the full details, I recommend reading the paper or even just emailing me. Now, let's get started.
 
 ## Motivation
-Suppose that you have a neural network which produces a score vector $$ \mathbf{x} \in [0,1]^{n}$$ given some input problem instance (a graph, an image, etc.), which is then used to solve some downstream task. That vector could be marginal probabilities of graph nodes for some kind of node selection task (e.g., probabilities that nodes are solving a combinatorial problem), or even the class probabilities for a classification task. From now on, let's say $$\mathbf{x}$$ are marginal probabilities for node selection, i.e., $$x_i$$ is the probability that node $$i$$ belongs to a set of nodes $$S$$ that is meant to solve some graph problem.
+The main objective of the paper is to make functions defined on discrete inputs (e.g., sets of items) compatible with continuous inputs (e.g., embeddings of neural networks). Furthermore
+
+
+## Setup and Possible solutions
+Suppose that you have a neural network which produces a score vector $$ \mathbf{x} \in [0,1]^{n}$$ given some input problem instance (a graph, an image, etc.), which is then used to solve some downstream task. That vector could be marginal probabilities of graph nodes for some kind of node selection task, or even the class probabilities for a classification task. To make the presentation more concrete, we will treat $$\mathbf{x}$$ as marginal probabilities for node selection, i.e., $$x_i$$ is the probability that node $$i$$ belongs to a set of nodes $$S$$ that is meant to solve some graph problem.
 
 Now assume that you have a function $$f: 2^n \rightarrow \mathbb{R} $$ whose input is any subset of $$ n $$ items. We can view the domain of $$f$$ as the space of n-dimensional binary vectors, i.e., $$ f: \{0,1\}^n \rightarrow \mathbb{R}$$. I'm obviously abusing notation here to emphasize that the *inputs* of this function are *discrete*, however the *outputs* are allowed to be *continuous*. 
 The input domain consists of all the possible indicator vectors for all the subsets of $$n $$ items we could pick. For example, let's assume $$f$$ is the cardinality function, i.e., the function that counts how many items the provided set has. Then for $$n=3$$, a set $$S$$ could be represented by a 3-dimensional binary vector, e.g., $$\mathbf{1}_S= \begin{bmatrix}1 & 1 & 0 \end{bmatrix}$$. In the case of that example vector, clearly the cardinality is $$ f(S) = f(\mathbf{1}_S) = 2 $$.
 
-Naturally, that kind of function is not compatible with arbitrary $$ \mathbf{x}$$ due to the continuity of $$\mathbf{x}$$. It doesn't make much sense to ask what is the cardinality of (for example) $$  \begin{bmatrix} 0.3 & 0.5 & 0.2 \end{bmatrix}$$ to begin with. 
- If we want to find a set that minimizes (or maximizes) the function by improving the scores in $$\mathbf{x}$$ in a differentiable neural network pipeline, we have to square away this incompatibility.
+Naturally, that kind of function is not compatible with arbitrary $$ \mathbf{x}$$ due to the continuity of $$\mathbf{x}$$. It doesn't make much sense to ask what is the cardinality of (for example) $$  \begin{bmatrix} 0.3 & 0.5 & 0.2 \end{bmatrix}$$ to begin with.  If we want to find a set that minimizes (or maximizes) the function by improving the scores in $$\mathbf{x}$$ in a differentiable neural network pipeline, we have to square away this incompatibility.
 Here, there are certain options one would consider:
 
-- Discretize the continuous output. We could sample with the Gumbel trick or even just threshold the values of $$\mathbf{x}$$ to obtain a binary vector. We could then use a [straight-through estimator][2] in the backward pass to go through the discretization procedure. While this provides a discrete vector that $$ f $$ is compatible with, it may only work if the function $$ f $$ itself *is differentiable*. 
+- Discretize the continuous output. We could sample with the Gumbel trick or even just threshold the values of $$\mathbf{x}$$ to obtain a binary vector that represents a set. We could then use a [straight-through estimator][2] in the backward pass to go through the discretization procedure. While this provides a discrete vector that $$ f $$ is compatible with, it may only work if the function $$ f $$ itself *is differentiable*. 
 
 - Assume the function $$ f $$ is a black box, so we have no guarantees that we can differentiate through it. In that case, some kind of [stochastic gradient estimation][3] might be our next option. For example we could use REINFORCE, i.e., sample sets $$ S $$ from $$ \mathbf{x} $$ then use the log-derivative trick to backpropagate through $$\mathbf{x}$$ while treating $$f$$ as the reward function.
 
 - Use a known continuous relaxation of the function. Again, that assumes that we have access to the function and a bespoke relaxation exists. That does not 
 require any discretization. When available, it's a pretty good option.
 
-
-These are all valid approaches that could make sense in certain scenarios. Here, we will propose a different strategy that aims to mitigate the drawbacks of some of the listed approaches. First, we can go back to the main obstacle we started from. What does it mean to ask about the cardinality of the input (value of the discrete function) when the input is not a set (binary vector) but a vector of continuous values?  There is a way to make this question well-posed. We can treat the continuous values as parameters of a probability distribution over sets. Then we can ask what is the *expected value of the function* over the distribution of sets encoded by $$ \mathbf{x}$$. 
+## Our solution
+These are all valid approaches that could make sense in certain scenarios. Here, we will propose a different strategy that aims to mitigate the drawbacks of the listed approaches. Namely, our approach can deal with functions in a black-box setting, 
+First, we can go back to the main obstacle we started from. What does it mean to ask about the cardinality of the input (value of the discrete function) when the input is not a set (binary vector) but a vector of continuous values?  There is a way to make this question well-posed. We can treat the continuous values as parameters of a probability distribution over sets. Then we can ask what is the *expected value of the function* over the distribution of sets encoded by $$ \mathbf{x}$$. 
 ### What is a scalar set function extension? It is simply a new differentiable function $$ \mathfrak{F}: [0,1]^n \rightarrow \mathbb{R} $$  which *extends* the discrete domain of the original function to a continuous domain. We will define it as the expected value of the function $$f$$ over a distribution of sets encoded by $$\mathbf{x}$$.
 
 That means that we will be going from a function defined on the corners of the hypercube $$ \{0,1\}^n$$ to a function defined on the whole hypercube $$[0,1]^n$$.
@@ -100,15 +104,15 @@ Now, the graph cut function happens to admit a bunch of continuous relaxations t
 ### $$c(S) = \begin{cases} 1 \; \text{if the set is a clique,} \\ 0 \; \text{ otherwise.} \end{cases} $$
 Then we may combine $$c$$ and $$g$$ into $$f(S) = c(S)g(S)$$. This is now a discrete set function which we can attempt to maximize in order to solve the maximum clique problem. We compute its continuous extension and use that as a loss function in order to find a score vector $$\mathbf{x}$$ that encodes a distribution of sets $$S$$ that best solves the problem.
 
-## In practice: Summary
+## Putting it all together: A recipe for solving problems with extensions
 To summarize, here are 4 steps to start solving problems with extensions. Assuming you have some discrete function $$f: \{0,1\}^n \rightarrow \mathbb{R}$$ and you are looking for subsets of $$n$$ objects that give you the optimal value for that function.
 - Step 1: Get a neural network and an input instance (image, graph, whatever).
 - Step 2: Generate scores $$\mathbf{x} \in [0,1]^n$$. The dimension $$n$$ may be the number of nodes of a graph, the number of classes for classification, etc.
-- Step 3: Compute an extension $$\mathfrak{F}$$ of that function. Use $$\mathfrak{F}$$ (with an appropriate sign for minimization/maximization) as your loss function. 
+- Step 3: Compute an extension $$\mathfrak{F}$$ of the function $$f$$. Use $$\mathfrak{F}$$ (with an appropriate sign for minimization/maximization) as your loss function. 
 - Step 4: To decide on a set for the solution to the problem, generate the sets $$S$$ of the extension and pick whichever gives you the best value for $$f$$.
 
 That's pretty much it. In the paper we apply those steps to do combinatorial optimization but we also show how they can be used for image classification by defining an extension for the discrete training error function (the possible input subsets there are just the $$n$$ possible class labels that are represented by one-hot binary vectors). From brief discussions I've had 
-at NeurIPS 2022, it seems like this kind of trick could be applied to other settings like NLP or VAEs. Those applications are left as an exercise to the reader :). 
+at NeurIPS 2022, it seems like this kind of trick could be applied to other settings like NLP or VAEs. Those applications are left as an exercise to the reader :)
 <hr>
 
 ## To be continued: Neural Extensions
