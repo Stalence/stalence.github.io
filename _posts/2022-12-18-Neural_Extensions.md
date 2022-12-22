@@ -10,16 +10,16 @@ tags:
 date-string: 'December 18, 2022'
 featured-image: /images/extensions/lovasz.jpg
 preview-image: /images/extensions/geometry2.jpg
-published: false
+published: true
 ---
 This post is meant to serve as an intuitive and practical explainer of our work on [neural set function extensions][1], recently presented at NeurIPS 2022. As in previous posts, I will be skipping potentially important details in the interest of brevity and understandability. For the full details, I recommend reading the paper or even just emailing me. Now, let's get started.
 
-## Motivation
-The main objective of the paper is to make functions defined on discrete inputs (e.g., sets of items) compatible with continuous inputs (e.g., embeddings of neural networks). Furthermore
+## High level motivation
+A commonly encountered challenge when using neural networks is when we learn some continuous representations for discrete entities and we would like to perform
+discrete/algorithmic computations over those entities in an end-to-end differentiable fashion. Discrete computations often require discrete inputs and introduce non-differentiabilities in our pipeline. In the paper, we focus our attention specifically on discrete functions. Our goal: to make such functions which are defined on discrete inputs (e.g., sets of items) compatible with continuous inputs (e.g., embeddings of neural networks) while allowing to backpropagate through them in neural network pipelines. 
 
-
-## Setup and Possible solutions
-Suppose that you have a neural network which produces a score vector $$ \mathbf{x} \in [0,1]^{n}$$ given some input problem instance (a graph, an image, etc.), which is then used to solve some downstream task. That vector could be marginal probabilities of graph nodes for some kind of node selection task, or even the class probabilities for a classification task. To make the presentation more concrete, we will treat $$\mathbf{x}$$ as marginal probabilities for node selection, i.e., $$x_i$$ is the probability that node $$i$$ belongs to a set of nodes $$S$$ that is meant to solve some graph problem.
+## Concrete setup and ways to approach it
+Suppose that you have a neural network which produces a score vector $$ \mathbf{x} \in [0,1]^{n}$$ given some input problem instance (a graph, an image, etc.), which is then used to solve some downstream task. That vector could be marginal probabilities of graph nodes for some kind of node selection task, or even the class probabilities for a classification task. To make the presentation more concrete, we will treat $$\mathbf{x}$$ as marginal probabilities for node selection, i.e., $$x_i$$ is the probability that node $$i$$ belongs to a set of nodes $$S$$ that is meant to solve some graph problem (a set that optimizes some kind of objective function).
 
 Now assume that you have a function $$f: 2^n \rightarrow \mathbb{R} $$ whose input is any subset of $$ n $$ items. We can view the domain of $$f$$ as the space of n-dimensional binary vectors, i.e., $$ f: \{0,1\}^n \rightarrow \mathbb{R}$$. I'm obviously abusing notation here to emphasize that the *inputs* of this function are *discrete*, however the *outputs* are allowed to be *continuous*. 
 The input domain consists of all the possible indicator vectors for all the subsets of $$n $$ items we could pick. For example, let's assume $$f$$ is the cardinality function, i.e., the function that counts how many items the provided set has. Then for $$n=3$$, a set $$S$$ could be represented by a 3-dimensional binary vector, e.g., $$\mathbf{1}_S= \begin{bmatrix}1 & 1 & 0 \end{bmatrix}$$. In the case of that example vector, clearly the cardinality is $$ f(S) = f(\mathbf{1}_S) = 2 $$.
