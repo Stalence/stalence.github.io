@@ -46,7 +46,7 @@ First, we can go back to the main obstacle we started from. What does it mean to
 ![image description](/images/extensions/pencil_noise.png)
 
 
-That means that we will be going from a function defined on the corners of the hypercube $$ \{0,1\}^n$$ to a function defined on the whole hypercube $$[0,1]^n$$. We propose continuous extensions of discrete functions defined on sets, that can be *deterministically* computed, even when we're only given black-box access to $$f$$. We provide multiple extensions that originate from a common mathematical formulation. Some are already known like the Lovász extension, and others are new, like the bounded cardinality Lovász extension. Furthermore, we provide a way to not only extend onto continuous domains, but also onto *high-dimensional* ones. We will discuss high-dimensional extensions in part 2 of this post.
+That means that we will be going from a function defined on the corners of the hypercube $$ \{0,1\}^n$$ to a function defined on the whole hypercube $$[0,1]^n$$. We propose continuous extensions of discrete functions defined on sets, that can be *deterministically* computed, even when we're only given black-box access to $$f$$. We provide multiple extensions that originate from a common mathematical formulation. Some are already known like the Lovász extension, and others are new, like the bounded cardinality Lovász extension. 
 <hr>
 
 ## Scalar extensions explained
