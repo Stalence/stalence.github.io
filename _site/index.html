@@ -175,7 +175,7 @@ First, we can go back to the main obstacle we started from. What does it mean to
 <h3 id="what-is-a-scalar-set-function-extension-it-is-simply-a-new-differentiable-function-mathfrakf-01n-rightarrow-mathbbr--which-extends-the-discrete-domain-of-the-original-function-to-a-continuous-domain-we-will-define-it-as-a-weighted-combination-of-evaluations-of-the-original-function-at-discrete-points-or-equivalently-as-the-expected-value-of-the-function-f-over-a-distribution-of-sets-encoded-by-mathbfx">What is a scalar set function extension? It is simply a new differentiable function \(\mathfrak{F}: [0,1]^n \rightarrow \mathbb{R}\)  which extends the discrete domain of the original function to a continuous domain. We will define it as a weighted combination of evaluations of the original function at discrete points, or equivalently, as the expected value of the function \(f\) over a distribution of sets encoded by \(\mathbf{x}\).</h3>
 <p><img src="/images/extensions/pencil_noise.png" alt="image description" /></p>
 
-<p>That means that we will be going from a function defined on the corners of the hypercube \(\{0,1\}^n\) to a function defined on the whole hypercube \([0,1]^n\). We propose continuous extensions of discrete functions defined on sets, that can be <em>deterministically</em> computed, even when we’re only given black-box access to \(f\). We provide multiple extensions that originate from a common mathematical formulation. Some are already known like the Lovász extension, and others are new, like the bounded cardinality Lovász extension.</p>
+<p>That means that we will be going from a function defined on the corners of the hypercube \(\{0,1\}^n\) to a function defined on the whole hypercube \([0,1]^n\). We propose continuous and differentiable extensions of discrete functions defined on sets, that can be <em>deterministically</em> computed, even when we’re only given black-box access to \(f\). We provide multiple extensions that originate from a common mathematical formulation. Some are already known like the Lovász extension, and others are new, like the bounded cardinality Lovász extension.</p>
 <hr />
 
 <h2 id="scalar-extensions-explained">Scalar extensions explained</h2>
@@ -195,12 +195,12 @@ Intuitively, the value of the extension at the continuous point is just a weight
 
 <p>A large chunk of the paper is dedicated to properly formalizing this trick. Obviously, I will keep things simple here so I won’t get into all that. I encourage the curious reader to check out the paper.
 Now, there are a couple of questions that naturally have to be addressed. One has to do with how we find those sets \(S_i\) and their coefficients \(a_i\). Is it computationally tractable? Can we do it fast? 
-The other has to do with whether this thing is differentiable at all? 
-Tha answer to all those questions is, modulo certain disclaimers, yes.</p>
+The other has to do with whether this thing is differentiable at all. 
+The answer to all those questions is, modulo certain disclaimers, yes. (Note that by ‘differentiable’ I will only be referring to differentiability in the sense that we can use automatic differentiation with packages like Pytorch and Tensorflow. Check out the appendix of the paper for more detailed comments around that.)</p>
 
 <h3 id="how-can-we-backpropagate-through-mathfrakfmathbfx">How can we backpropagate through \(\mathfrak{F}(\mathbf{x})\)?</h3>
-<p>The trick for this is simple. As long as \(a_i = g(\mathbf{x})\), and \(g\) is some continuous function of \(\mathbf{x}\), then gradients can just go through
-the coefficients \(a_i\) in the sum that defines \(\mathfrak{F}(\mathbf{x})\).
+<p>The trick for this is simple. As long as \(a_i = g(\mathbf{x})\), and \(g\) is some differentiable function of \(\mathbf{x}\), then gradients can just go through
+the coefficients \(a_i\) in the sum that defines \(\mathfrak{F}(\mathbf{x})\). (The coefficients)
 <img src="/images/extensions/extensions_pencil2.png" alt="image description" /></p>
 
 <h3 id="how-do-we-find-sets-s_i-and-their-coefficients-a_i">How do we find sets \(S_i\) and their coefficients \(a_i\)?</h3>
@@ -218,7 +218,7 @@ The coefficients and the sets of the Lovász extension are then defined as follo
 <p>Here, I’m using a bit of coding notation with \(1:i\) to indicate “all elements up to \(i\)”.
 Given the sets and their coefficients, the Lovász extension is computed by</p>
 <h3 id="mathfrakfmathbfx--displaystyle-sum_i1n--x_i---x_i1f-1-i--">\(\mathfrak{F}(\mathbf{x}) = \displaystyle \sum_{i=1}^{n}  (x_i - x_{i+1})f( \{1: i \} )\).</h3>
-<p>Clearly, \(a_i\) are differentiable with respect to \(\mathbf{x}\) as they’re just pairwise differences of the coordinates of \(\mathbf{x}\).
+<p>Clearly, \(a_i\) are differentiable with respect to \(\mathbf{x}\) as they’re just pairwise differences of the coordinates of \(\mathbf{x}\) 
 To make things concrete, let’s do the calculation to find sets and coefficients for our example vector from before: \(\mathbf{x} = \begin{bmatrix} 0.3 &amp; 0.5 &amp; 0.2\end{bmatrix}\).
 Based on the ranking of the elements, we will have the following sets</p>
 <h3 id="1_s_1--beginbmatrix-0--1--0-endbmatrix-1_s_2--beginbmatrix-1--1--0-endbmatrix-1_s_3--beginbmatrix-1--1--1-endbmatrix">\(1_{S_1} = \begin{bmatrix} 0 &amp; 1 &amp; 0 \end{bmatrix}, 1_{S_2} = \begin{bmatrix} 1 &amp; 1 &amp; 0 \end{bmatrix}, 1_{S_3} = \begin{bmatrix} 1 &amp; 1 &amp; 1 \end{bmatrix}\),</h3>
@@ -728,7 +728,7 @@ I may come back to write a few things about how those ideas relate to spirit, bu
     <div class="footer-wrapper">
         <footer role="contentinfo">
             <span>
-    &copy; 2022 Nikolaos Karalias.<br>Powered by <a target="_blank" href="https://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a target="_blank" href="https://github.com/benradford/Slate-and-Simple-Jekyll-Theme">Slate+Simple</a> theme.
+    &copy; 2023 Nikolaos Karalias.<br>Powered by <a target="_blank" href="https://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a target="_blank" href="https://github.com/benradford/Slate-and-Simple-Jekyll-Theme">Slate+Simple</a> theme.
 </span>
 
         </footer>

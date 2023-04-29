@@ -46,7 +46,7 @@ First, we can go back to the main obstacle we started from. What does it mean to
 ![image description](/images/extensions/pencil_noise.png)
 
 
-That means that we will be going from a function defined on the corners of the hypercube $$ \{0,1\}^n$$ to a function defined on the whole hypercube $$[0,1]^n$$. We propose continuous extensions of discrete functions defined on sets, that can be *deterministically* computed, even when we're only given black-box access to $$f$$. We provide multiple extensions that originate from a common mathematical formulation. Some are already known like the Lovász extension, and others are new, like the bounded cardinality Lovász extension. 
+That means that we will be going from a function defined on the corners of the hypercube $$ \{0,1\}^n$$ to a function defined on the whole hypercube $$[0,1]^n$$. We propose continuous and differentiable extensions of discrete functions defined on sets, that can be *deterministically* computed, even when we're only given black-box access to $$f$$. We provide multiple extensions that originate from a common mathematical formulation. Some are already known like the Lovász extension, and others are new, like the bounded cardinality Lovász extension. 
 <hr>
 
 ## Scalar extensions explained
@@ -67,12 +67,13 @@ Intuitively, the value of the extension at the continuous point is just a weight
 
 A large chunk of the paper is dedicated to properly formalizing this trick. Obviously, I will keep things simple here so I won't get into all that. I encourage the curious reader to check out the paper.
 Now, there are a couple of questions that naturally have to be addressed. One has to do with how we find those sets $$S_i$$ and their coefficients $$a_i$$. Is it computationally tractable? Can we do it fast? 
-The other has to do with whether this thing is differentiable at all? 
-Tha answer to all those questions is, modulo certain disclaimers, yes.
+The other has to do with whether this thing is differentiable at all. 
+The answer to all those questions is, modulo certain disclaimers, yes. (Note that by 'differentiable' I will only be referring to differentiability in the sense that we can use automatic differentiation with packages like Pytorch and Tensorflow. Check out the appendix of the paper for more detailed comments around that.)
+ 
 
 ### How can we backpropagate through $$ \mathfrak{F}(\mathbf{x}) $$? 
-The trick for this is simple. As long as $$ a_i = g(\mathbf{x}) $$, and $$g$$ is some continuous function of $$ \mathbf{x}$$, then gradients can just go through
-the coefficients $$a_i$$ in the sum that defines $$ \mathfrak{F}(\mathbf{x}) $$.
+The trick for this is simple. As long as $$ a_i = g(\mathbf{x}) $$, and $$g$$ is some differentiable function of $$ \mathbf{x}$$, then gradients can just go through
+the coefficients $$a_i$$ in the sum that defines $$ \mathfrak{F}(\mathbf{x}) $$. (The coefficients)
 ![image description](/images/extensions/extensions_pencil2.png)
 
 
@@ -91,7 +92,7 @@ The coefficients and the sets of the Lovász extension are then defined as follo
 Here, I'm using a bit of coding notation with $$1:i$$ to indicate "all elements up to $$i$$".
 Given the sets and their coefficients, the Lovász extension is computed by
 ### $$ \mathfrak{F}(\mathbf{x}) = \displaystyle \sum_{i=1}^{n}  (x_i - x_{i+1})f( \{1: i \} ) $$.
-Clearly, $$ a_i $$ are differentiable with respect to $$\mathbf{x}$$ as they're just pairwise differences of the coordinates of $$ \mathbf{x}$$.
+Clearly, $$ a_i $$ are differentiable with respect to $$\mathbf{x}$$ as they're just pairwise differences of the coordinates of $$ \mathbf{x}$$ 
 To make things concrete, let's do the calculation to find sets and coefficients for our example vector from before: $$\mathbf{x} = \begin{bmatrix} 0.3 & 0.5 & 0.2\end{bmatrix}$$.
 Based on the ranking of the elements, we will have the following sets
 ### $$ 1_{S_1} = \begin{bmatrix} 0 & 1 & 0 \end{bmatrix}, 1_{S_2} = \begin{bmatrix} 1 & 1 & 0 \end{bmatrix}, 1_{S_3} = \begin{bmatrix} 1 & 1 & 1 \end{bmatrix} $$,
@@ -137,3 +138,4 @@ But that's a story for another time. Until then, I hope this has been helpful.
 [4]: https://en.wikipedia.org/wiki/Submodular_set_function
 [5]: https://imgur.com/a/sESylTS
 [6]: https://en.wikipedia.org/wiki/Semidefinite_programming
+
