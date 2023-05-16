@@ -2,7 +2,7 @@
 layout: about
 categories: about
 title: About
-featured-image: /images/about/me.jpg
+featured-image: /images/about/me232.jpg
 #permalink: /about/index.html
 ---
 I am a PhD candidate at EPFL, supervised by Andreas Loukas and Pierre Vandergheynst.
