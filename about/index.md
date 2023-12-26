@@ -10,7 +10,7 @@ featured-image: /images/about/me.jpg
   </div>
 I am currently a SNSF postdoctoral fellow at MIT CSAIL, supervised by Stefanie Jegelka. Previously, I completed my PhD  at EPFL, where I was supervised by Andreas Loukas and Pierre Vandergheynst.
 My research focus is at the intersection of combinatorial optimization and machine learning, where I develop novel methods that utilize neural networks to solve diverse combinatorial and algorithmic problems.
-Recently, I have been focusing on:
+Recently, I have been working on:
 - Designing neural network-based algorithms with worst-case guarantees.
 - Rounding (convex) relaxations to combinatorial optimization problems.
 - Leveraging the power of local search algorithms in machine learning problems.
