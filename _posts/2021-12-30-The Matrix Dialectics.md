@@ -53,7 +53,9 @@ Given the title of the movie and the emphasis of the franchise on repeated patte
 
 To explain in more detail we will need to introduce some key concepts that will be essential to understanding those connections.
 
-**Disclaimer**: I am not a philosopher and I have read about those things only in online lecture material, blog posts, and online encyclopedias. I'm sure there will be people that find this too crude or even incorrect. That's just my reading of the material and more particularly, how I think the Wachowskis understood and interpreted this material to connect it to the Matrix. Of course, I don't know them and I've never talked to them so that's just me piecing things together in a way that hopefully makes sense.
+**Disclaimer**: I am not a philosopher and I have read about those things only in online lecture material, blog posts, and online encyclopedias. I'm sure there will be people that find this too crude, misguided, or even outright incorrect. If there are points in this post where what I'm saying is blatantly wrong, feel free to shoot me an email to let me know :)
+
+ What I'm presenting here is just my reading of the material and more particularly, how I am guessing that the Wachowskis may have understood and interpreted this material to connect it to the Matrix. Of course, I don't know them and I've never talked to them so that's just me piecing things together in a way that hopefully makes sense.
 
 <h2 style="color:rgb(255, 166, 0); font-family:Calibri;font-size: 22px;font-weight:100;">Spirit</h2>
 
@@ -98,8 +100,8 @@ From the Stanford encyclopedia of philosophy:
 > ...
 > Being is the positive moment or thesis, Nothing is the negative moment or antithesis, and Becoming is the moment of aufheben or synthesis—the concept that cancels and preserves, or unifies and combines, Being and Nothing.
 
-So Thesis-Antithesis-Synthesis can be used to describe the evolution of a logical argument. This is what Lana means when she says that the structure was dialectical. We start with a proposition (thesis). Then a contradiction in that proposition leads to a counter-proposition (antithesis).
-Those are reconciled by creating a new proposition which combines the two.
+Thesis-Antithesis-Synthesis can be used to describe the evolution of a logical argument. This is what Lana means when she says that the structure was dialectical. We start with a proposition (thesis). Then a contradiction in that proposition leads to a counter-proposition (antithesis).
+The two are reconciled by creating a new proposition.
 Neo's struggle with Smith can be metaphorically viewed in those terms.
 Essentially, starting from a thesis (Neo) a contradiction arises which leads
 to the creation of antithesis (Smith). How the contradiction (and therefore Smith) emerged is handwaved away in Reloaded. All we get is that there's something teleological about his existence ("it happened for a reason"). These two have to be reconciled through synthesis; a new entity that combines the previous ones. This is the moment where Neo gets absorbed by Smith and through Deus-Ex-Machina achieves peace. 
@@ -164,8 +166,8 @@ Given Lana's words about transcending the Cartesian dilemma, it's fair to assume
 <h2 style="color:rgb(255, 166, 0); font-family:Lato;font-size: 22px;font-weight:100;">The Big Picture</h2>
 
 So, why does it even make sense to go there? What is the point of invoking all those philosophical ideas? Well, apart from serving as great literary devices, we need to remember where the Matrix started from.
-Starting with the first, the main character is forced to completely revise his framework for understanding the world as he realizes that he was trapped in a simulated reality. Upon re-evaluating his worldview and assuming the role of the one, he realizes that this new framework has to be re-evaluated as well, as it's yet another system of control laid out by the machines. Naturally, by the end of Reloaded we can wonder
-whether this process of re-evaluating the framework for understanding the world ever "bottoms out". That's where Revolutions comes. It aims to provide an account of how a kind of "ultimate knowledge" (spirit of the universe) emerges during the confrontation of entities with conflicting views and categorizations of the world. It is through those conflicts that spirit self-actualizes and Neo, along with Trinity and other key characters like the Oracle, are the vessels of this discovery in the trilogy.
+Starting with the first, the main character is forced to completely revise his framework for understanding the world as he realizes that he was trapped in a simulated reality. Upon re-evaluating his worldview and assuming the role of the one, he realizes that this new framework has to be re-evaluated as well, as it's yet another system of control laid out by the machines. Naturally, by the end of Reloaded we may wonder whether there are further reveals down the line.
+ That's where Revolutions comes. It aims to provide an account of how a kind of "higher awareness" (spirit of the universe) emerges during the confrontation of entities with conflicting views and categorizations of the world. Ultimately, it seems like there is a value judgment, i.e., there is a preferable course of events which involves resolving the conflict (the path of peace) and that path is achieved when Neo understands the role he has to play.
 
 Lana in her interview says about the golden light:
 > That light is what the third movie is trying to solve, post deconstructing something like choice. You can say choice is important, choice is a part of everyone's lives... but that paradigm of choice is not different, it's a matrix just like Catholicism or Christianity...
@@ -178,14 +180,12 @@ which stand for the values of choice and free will. A master-slave dialectic bet
 
 Interestingly, this is flipped and applies to machines in the trilogy. Now, in this master-slave struggle machines gain the upper hand. In Reloaded, we learn that the Architect can not comprehend humans. He epitomizes the values of machines that are diametrically opposed to the human ones. The Oracle also explicitly tells Neo that the Architect can't understand humans.  However, we see that the Oracle begins to gain an appreciation for human nature. As we saw above, spirit emerges through an act of mutual recognition between conflicting sides. That is, the values of the machines and the values of humans would somehow have to be reconciled. This manifests with the Oracle's plan that creates a new version of the One. Recall that previous matrix versions failed because humans were not given a (subconscious) choice to participate. This solution of incorporating choice was discovered by the Oracle.
 
- The recognition of the values of the machines comes through Neo's acknowledgement of inevitability and his surrender. From the machine side, I believe that this acknowledgement is best reflected in the last line of the film. Seraph asks the Oracle if she always knew what would happen. Her response is 'No. But I believed'. We see that the Oracle's actions clearly display values that are strictly representative of humans (choice, hope, and belief). First she was able to realize how choice is integral for humans. Then she herself embraces the human 'framework of meaning'. This is what allowed spirit to emerge and the peaceful coexistence of humans and machines to be achieved. 
+ The recognition of the values of the machines comes through Neo's acknowledgement of inevitability and his surrender. From the machine side, I believe that this acknowledgement is best reflected in the last line of the film. Seraph asks the Oracle if she always knew what would happen. Her response is 'No. But I believed'. We see that the Oracle's actions clearly display values that are typically representative of humans (choice, hope, and belief). First, she was able to realize how choice is integral for humans. Then, she herself embraces the human 'framework of meaning'. This is what allowed spirit to emerge and the peaceful coexistence of humans and machines to be achieved. 
 
-And this is why I find Revolutions to be the most ambitious sequel. It provids a bold and idealistic view for the evolution of history in terms of the evolution of spirit. I'm not particularly spiritual in my life, but spiritual themes can be great at driving narratives in movies and this is what appears to be happening here.
-I love how the Wachowskis decided to go about this one.
-While those ideas are not always explicitly detailed in the movie, this is in part because the Wachowskis intended this to be a puzzle for people to analyze. 
-The pieces of the puzzle are there, although arguably not entirely contained in the trilogy. As a viewer, you can either decide to dismiss all of those things as arbitrary aesthetic decisions, or take into account the clues that are available and piece it all together. It's quite likely that some of the connections I drew here are half-baked and more crisp explanations may exist. I do think that the g(e)ist of what I'm describing gets fairly close to what the Wachowskis intended.
+And this is why I find Revolutions to be the most ambitious sequel. It provids a bold and idealistic view for the evolution of history in terms of the evolution of spirit. I'm not particularly spiritual in my life, but spiritual themes can be great at driving narratives in movies and this is what appears to be happening here. While those ideas are not always explicitly detailed in the movie, this is in part because the Wachowskis intended this to be a puzzle for people to analyze. 
+The pieces of the puzzle are there, although arguably not entirely contained in the trilogy. It's quite likely that some of the connections I drew here are half-baked and more crisp explanations may exist. I do think that the [g(e)ist][16] of what I'm describing might be getting fairly close to what the Wachowskis intended.
 I have also left out parts like the religious references of the trilogy. 
-I may come back to write a few things about how those ideas relate to spirit, but for now... it is done.
+I may come back to write a few things about how those ideas relate to spirit, but for now... it is done. 
 
 I will just end this post with a quote from Hegel's "Philosophy of Nature" which I find rather fitting:
 >All cultural change reduces itself to a difference of categories. All revolutions, whether in the sciences or world history, occur merely because spirit has changed its categories in order to understand and examine what belongs to it, in order to possess and grasp itself in a truer, deeper, more intimate and unified manner.
@@ -209,3 +209,4 @@ I will just end this post with a quote from Hegel's "Philosophy of Nature" which
   [13]: https://youtu.be/ARoKJ00cEZ8?t=4246
   [14]: https://www.youtube.com/watch?v=Fgg7FdznyQg
   [15]: https://en.wikipedia.org/wiki/Julia_set
+  [16]: https://www.youtube.com/watch?v=ObpcGNCU944
