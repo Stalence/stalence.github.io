@@ -3,11 +3,11 @@ layout: publications
 categories: posts
 title: Publications
 ---
-* Yau M., Lu E., Karalias N., Xu J., Jegelka S. (2023). Are Graph Neural Networks Optimal Approximation Algorithms? NeurIPS Workshop on the Mathematics of Modern Machine Learning (M3L) 2023. ([arxiv][15])
+* Yau M., Karalias N., Lu E., Xu J., Jegelka S. (2024). Are Graph Neural Networks Optimal Approximation Algorithms? NeurIPS 2024 **Spotlight**. ([arxiv][15])
 
 * Karalias N., Robinson J., Loukas A., Jegelka S. (2022). Neural Set Function Extensions: Learning with Discrete Functions in High Dimensions. NeurIPS 2022. ([arxiv][11], [proceedings][12], [blogpost][13], [video presentation][14])
 
-* Karalias N., & Loukas A. (2020). Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimization on Graphs. In NeurIPS ([arxiv][6], [code][1], [blogpost][2], [short presentation][3], [podcast][4], [bibtex][5])
+* Karalias N., & Loukas A. (2020). Erdos Goes Neural: an Unsupervised Learning Framework for Combinatorial Optimization on Graphs.  NeurIPS 2020 **Oral** ([arxiv][6], [code][1], [blogpost][2], [short presentation][3], [podcast][4], [bibtex][5])
 
 * Bouritsas G., Loukas A., Karalias N., Bronstein M. (2021). Partition and Code: learning how to compress graphs. Advances in Neural Information Processing Systems, 34. ([arxiv][8], [code][7], [slides][10], [bibtex][9])
 
