@@ -13,10 +13,9 @@ My research focus is at the intersection of combinatorial optimization and machi
 Recently, I have been working on:</p>
 <ul>
   <li>Designing neural network-based algorithms for combinatorial optimization problems that can provide solution quality certificates and/or worst-case guarantees.</li>
-  <li>Convex relaxations and their relationships to neural nets.</li>
-  <li>Leveraging the power of local search algorithms in machine learning problems.</li>
+  <li>Leveraging (convex) relaxations and SDP hierarchies to solve combinatorial problems with neural networks.</li>
+  <li>Rounding/discretization of neural net solutions to combinatorial problems. </li>
 </ul>
-
 <p>If you are a student interested in working with me in any of those areas feel free to shoot me an email!</p>
 
 <p>Outside of research, I love doing parkour and playing the drums. I will occassionaly post more content related to my research on this website such as tutorials or practical
