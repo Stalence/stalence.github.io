@@ -5,20 +5,10 @@
 <!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
 
 <head>
-        <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5Q79272JD"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-D5Q79272JD');
-    </script>
-
     <meta charset="utf-8">
-<title>About &#8211; Nikos Karalias</title>
+<title>Are Neural Networks Optimal Approximation Algorithms? &#8211; Nikos Karalias</title>
 <meta name="description" content="Balboa Station. Watch your step">
-
+<meta name="keywords" content="Learning with approximation guarantees, Neural Networks, Combinatorial optimization">
 
 <!-- Google Analytics-->
   <!-- Google tag (gtag.js) -->
@@ -48,16 +38,16 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="About">
+<meta property="og:title" content="Are Neural Networks Optimal Approximation Algorithms?">
 <meta property="og:description" content="Balboa Station. Watch your step">
-<meta property="og:url" content="http://localhost:4000/about/">
+<meta property="og:url" content="http://localhost:4000/posts/2024-12-18/Csailnews.html">
 <meta property="og:site_name" content="Nikos Karalias">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/about/">
+<link rel="canonical" href="http://localhost:4000/posts/2024-12-18/Csailnews.html">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Nikos Karalias Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -108,9 +98,6 @@
 
 </head>
 
-
-
-
 <!-- BODY -->
 <body id="post-index">
     <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
@@ -118,42 +105,26 @@
     <div id="main" role="main">
         <article class="hentry">
 
-            <!-- <div class="featured-image">
-            </div> -->
+            <div class="featured-image">
+            <img src="" style="width:100%">
+            </div>
 
             <!-- MAIN -->
             <h1 class="entry-title">
-                <a>About</a>
+                <a style= "color:rgb(255, 166, 0)" >Are Neural Networks Optimal Approximation Algorithms?</a>
             </h1>
             <h3 class="entry-subtitle">
-                <a href="http://localhost:4000" rel="bookmark" title="" itemprop="url"></a>
+                <a href="http://localhost:4000" style= "color: #808080"  rel="bookmark" title="" itemprop="url"></a>
             </h3>
 
             <hr>
 
             <!-- POST CONTENT -->
-            <div  markdown="1" class="entry-content">
-                <img src="/images/about/me.jpg" style=" position: relative; left: 280px; top: -10px; z-index: 1; width:200px; height: 260px; border-radius: 10px; ">
-                <div style="font-size: 24px;float:center; position: relative; left: 250px">
- <a href="https://twitter.com/AspectStalence" class="fa fa-twitter fa-2x"></a>   <a href="https://scholar.google.com/citations?user=CRLG9UcAAAAJ&amp;hl=el" class="ai ai-google-scholar-square fa-2x"></a>   <a href="https://github.com/Stalence" class="fa fa-github fa-2x"></a> <a href="https://www.shadertoy.com/user/Aspect"><img src="/images/icons/logo-removebg-preview.png" class="shadertoy" /></a> 
-  </div>
-<p>I am currently a SNSF postdoctoral fellow at MIT CSAIL, supervised by Stefanie Jegelka. Previously, I completed my PhD  at EPFL, where I was supervised by Andreas Loukas and Pierre Vandergheynst.
-My research focus is at the intersection of combinatorial optimization and machine learning, where I develop novel methods that utilize neural networks to solve diverse combinatorial and algorithmic problems.
-Recently, I have been working on:</p>
-<ul>
-  <li>Designing neural network-based algorithms for combinatorial optimization problems that can provide solution quality certificates and/or worst-case guarantees.</li>
-  <li>Leveraging (convex) relaxations and SDP hierarchies to solve combinatorial problems with neural networks.</li>
-  <li>Rounding/discretization of neural net solutions to combinatorial problems. </li>
-</ul>
-<p>If you are a student interested in working with me in any of those areas feel free to shoot me an email!</p>
+            <div class="entry-content">
+                <p>This NeurIPS, we presented our work on the question of whether neural networks can be efficiently used to design optimal approximation algorithms. The answer is a conditional yes. Assuming the Unique Games Conjecture, there is a general
+semidefinite program (SDP) that achieves optimal approximation guarantees. In our paper, we show that this SDP can be efficiently solved using a rather simple graph neural network architecture (GNN). More specifically, gradient descent on the quadratically penalized Lagrangian of the SDP leads to message passing iterations, which we execute through a neural network that we call OptGNN.</p>
 
-<p>Outside of research, I love doing parkour and playing the drums. I will occassionaly post more content related to my research on this website such as tutorials or practical
-    guides for combinatorial ML. However, I may occassionaly write something about other topics (love the Matrix Trilogy!).</p>
-<hr />
-
-<hr />
-
-<h2 style="color:rgb(255, 166, 0); font-family:Calibri;font-size: 22px;font-weight:100;">Email: stalence(at)mit(dot)edu</h2>
+<p>This leads to an architecture that achieves strong empirical results across several NP-Hard combinatorial problems. The paper has also been featured on <a href="https://www.csail.mit.edu/news/deep-learning-np-hard-problems">MIT CSAIL news</a> so feel free to check that out for some additional commentary.</p>
 
 
             </div>
@@ -165,6 +136,12 @@ Recently, I have been working on:</p>
             <div class="inline-tags">
                 <span>
                     
+                        <a href="/tags/#Learning with approximation guarantees">#Learning with approximation guarantees&nbsp;&nbsp;&nbsp;</a>
+                    
+                        <a href="/tags/#Neural Networks">#Neural Networks&nbsp;&nbsp;&nbsp;</a>
+                    
+                        <a href="/tags/#Combinatorial optimization">#Combinatorial optimization&nbsp;&nbsp;&nbsp;</a>
+                    
                 </span>
             </div>
 
@@ -172,7 +149,7 @@ Recently, I have been working on:</p>
 
             <!-- POST DATE -->
             <div class="post-date">
-                
+                December 18, 2024
             </div>
         </article>
     </div>

@@ -283,10 +283,19 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a 
     h1, a, div {
     	text-transform: uppercase;
 		color: lighten($base-color, 60);
-		letter-spacing: 5px;
-		font-size: 25px;
+		letter-spacing: 1.5px;
+		font-size: 28px;
 	}
+
+
+    a:hover{
+        color: #F2992E;
+    }
+
+
 }
+
+
 
 .post-date {
     font-size: 12px;
@@ -347,9 +356,15 @@ header .entry-meta {
 					opacity: 0.9;
 				}
 	        }
+
+
 	    }
 
-		
+				.custom-featured-image {
+			width: 10%; /* Adjust the width as needed */
+			max-width: 80px; /* Set a maximum width */
+			height: auto; /* Maintain aspect ratio */
+		}
 
 		@media #{$medium} {
 			padding: 30px;
