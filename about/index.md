@@ -18,7 +18,7 @@ Recently, I have been working on:</p>
 </ul>
 <p>If you are a student interested in working with me in any of those areas feel free to shoot me an email!</p>
 
-<p>Outside of research, I love doing parkour and playing the drums. I will occassionally post more content related to my research on this website such as tutorials or practical
+<p>Outside of research, I love doing parkour and playing the drums. I will post more content related to my research on this website such as tutorials or practical
     guides for combinatorial ML. However, I may occassionally write something about other topics (love the Matrix Trilogy!).</p>
 <hr />
 
