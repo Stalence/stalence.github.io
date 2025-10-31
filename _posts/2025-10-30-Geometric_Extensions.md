@@ -53,7 +53,7 @@ Is there a general strategy for constructing extensions with support only on fea
  2. Fire a ray starting from $$  \mathbf{1}_{S_i} $$ that passes through $$\mathbf{x}$$.
  3. Compute its intersection $$\mathbf{x'}$$ with the boundary of the polytope.
  4. Clearly, $$\mathbf{x} $$ is a point in the line segment whose endpoints are $$ \mathbf{1}_{S_i} $$ and $$\mathbf{x}'$$. It is therefore a convex combination of the two.
- 5. Set $$\mathbf{x} \leftarrow \mathbf{x'}$$ and repeat from step 1. </span>
+ 5. Set $$\mathbf{x} \leftarrow \mathbf{x'}$$ and repeat from step 1. 
 
 
 By the GLS decomposition, this process will terminate in at most $$ n+1 $$ steps. A key part of the theorem is to show that that the coefficients forming the convex combinations at each iteration of the GLS decomposition are almost differentiable functions of $$\mathbf{x}$$ at each step, which allows us to backpropagate through the extension. 
