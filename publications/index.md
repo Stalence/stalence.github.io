@@ -4,9 +4,9 @@ categories: posts
 title: Publications
 ---
 * Karalias N., Rafiey A., Xu Y., Luo Z., Tahmasebi B., Jiang C., Jegelka S. (2025)
-Geometric Algorithms for Neural Combinatorial Optimization with Constraints. NeurIPS 2025
+Geometric Algorithms for Neural Combinatorial Optimization with Constraints. NeurIPS 2025. ([arxiv][19])
 
-* Yau M., Karalias N., Lu E., Xu J., Jegelka S. (2024). Are Graph Neural Networks Optimal Approximation Algorithms? NeurIPS 2024 **Spotlight**. ([arxiv][15],[proceedings][16],[MIT-CSAIL news coverage][17], [video presentation][18])
+* Yau M., Karalias N., Lu E., Xu J., Jegelka S. (2024). Are Graph Neural Networks Optimal Approximation Algorithms? NeurIPS 2024 **Spotlight**. ([arxiv][15], [proceedings][16], [MIT-CSAIL news coverage][17], [video presentation][18])
 
 * Karalias N., Robinson J., Loukas A., Jegelka S. (2022). Neural Set Function Extensions: Learning with Discrete Functions in High Dimensions. NeurIPS 2022. ([arxiv][11], [proceedings][12], [blogpost][13], [video presentation][14])
 
@@ -32,3 +32,4 @@ Geometric Algorithms for Neural Combinatorial Optimization with Constraints. Neu
 [16]: https://proceedings.neurips.cc/paper_files/paper/2024/file/85db52cc08c5e00cfb1d216b1c85ba35-Paper-Conference.pdf
 [17]: https://www.csail.mit.edu/news/deep-learning-np-hard-problems
 [18]: https://www.youtube.com/watch?v=lkanPTlG96A
+[19]: https://arxiv.org/abs/2510.24039

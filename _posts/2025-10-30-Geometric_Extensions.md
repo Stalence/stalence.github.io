@@ -7,7 +7,7 @@ tags:
   - Learning with constraints
   - Neural Networks
   - Combinatorial optimization
-date-string: 'November 1, 2025'
+date-string: 'October 30, 2025'
 featured-image: /images/geoxtensions/GN9wide.jpg
 preview-image: /images/geoxtensions/GN12.jpg
 published: true
@@ -61,7 +61,7 @@ Our theorem is applicable to any feasible set polytope that admits an efficient 
  
  It is important to note that hard combinatorial problems can often be reformulated in terms of polytopes that admit linear optimization oracles. For example, the Travelling Salesperson Problem (TSP) can be viewed as a linear optimization problem over the TSP polytope but it can also be viewed as quadratic optimization over a permutation polytope. In that case, the TSP problem would be solved by producing an extension of the quadratic objective over the feasible set of permutations. This significantly improves the applicability of our approach.
 
- Finally, our proposed general decomposition algorithm is more general than the GLS decomposition since it allows for approximate versions of the Carathéodory decomposition. We provide an example of such a decomposition which we were able to use in our experiments to improve results on the maximum coverage problem. 
+ Finally, our proposed decomposition algorithm is more general than the GLS decomposition since it allows for approximate versions of the Carathéodory decomposition. We provide an example of such a decomposition which we were able to use in our experiments to improve results on the maximum coverage problem. 
 
 
 [1]: https://stalence.github.io/posts/2022-12-18/Neural_Extensions.html
