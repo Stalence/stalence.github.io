@@ -8,7 +8,7 @@ tags:
   - Neural Networks
   - Combinatorial optimization
 date-string: 'October 30, 2025'
-featured-image: /images/geoxtensions/GN9wide.jpg
+featured-image: /images/geoxtensions/gn9wide.jpg
 preview-image: /images/geoxtensions/GN12.jpg
 published: true
 ---
