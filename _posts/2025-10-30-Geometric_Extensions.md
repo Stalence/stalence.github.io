@@ -49,7 +49,7 @@ Is there a general strategy for constructing extensions with support only on fea
  Briefly, we first define a polytope whose corners are all the feasible sets $$S \in \Omega$$. Then, if there is an oracle for linear optimization on the polytope, such an extension can be constructed. To do so, given any interior point $$\mathbf{x}$$ in the polytope, we algorithmically construct its Carathéodory decomposition as follows. 
 
 
- 1. Set $$ \mathbf{1}_{S_i} \triangleq \text{argmax}_{\mathbf{c \in \mathcal{P}}}\mathbf{c}^\top \mathbf{x} $$
+ 1. Set $$ \mathbf{1}_{S_i} \leftarrow \text{argmax}_{\mathbf{c \in \mathcal{P}}}\mathbf{c}^\top \mathbf{x} $$
  2. Fire a ray starting from $$  \mathbf{1}_{S_i} $$ that passes through $$\mathbf{x}$$.
  3. Compute its intersection $$\mathbf{x'}$$ with the boundary of the polytope.
  4. Clearly, $$\mathbf{x} $$ is a point in the line segment whose endpoints are $$ \mathbf{1}_{S_i} $$ and $$\mathbf{x}'$$. It is therefore a convex combination of the two.
