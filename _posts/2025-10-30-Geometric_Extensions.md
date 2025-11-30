@@ -63,7 +63,7 @@ Our theorem is applicable to any feasible set polytope that admits an efficient 
  
  It is important to note that <span style="color:rgb(255, 166, 0)"> hard combinatorial problems can often be reformulated in terms of polytopes that admit linear optimization oracles </span>. For example, the Travelling Salesperson Problem (TSP) can be viewed as a linear optimization problem over the TSP polytope but it can also be viewed as quadratic optimization over a permutation polytope. That permutation polytope (Birkhoff Polytope) admits a fast oracle for its linear optimization problem. In that case, the TSP problem would be solved by producing an extension of the quadratic objective over the feasible set of permutations. This significantly improves the applicability of our approach.
 
- Finally, our proposed decomposition algorithm is more general than the GLS decomposition since <span style="color:rgb(255, 166, 0)">it allows for approximate versions of the Carathéodory decomposition </span>. We provide an example of such a decomposition which we were able to use in our experiments to improve results on the maximum coverage problem. 
+ Finally, our proposed decomposition algorithm is more general than the GLS decomposition since <span style="color:rgb(255, 166, 0)">it allows for approximate versions of the Carathéodory decomposition (Proposition 4.2 in the paper) </span>. We provide an example of such a decomposition which we were able to use in our experiments to improve results on the maximum coverage problem. 
 
 
 [1]: https://stalence.github.io/posts/2022-12-18/Neural_Extensions.html
