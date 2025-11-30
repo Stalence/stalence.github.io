@@ -12,7 +12,7 @@ featured-image: /images/geoxtensions/gn9wide.jpg
 preview-image: /images/geoxtensions/GN12.jpg
 published: true
 ---
-At NeurIPS 2025 in San Diego, we will be presenting our work on geometric algorithms for neural combinatorial optimization. I will provide a brief summary of the paper and the main idea behind it. Before I continue, it may be helpful to read this [blog post][1] where I discuss some of the background and motivation behind the use of extensions for combinatorial optimization with neural networks. 
+At NeurIPS 2025 in San Diego, we will be presenting our [paper on geometric algorithms for neural combinatorial optimization][2]. I will provide a brief summary of the paper and the main idea behind it. Before I continue, it may be helpful to read this [blog post][1] where I discuss some of the background and motivation behind the use of extensions for combinatorial optimization with neural networks. 
 
 ## Learning with extensions: background
 First, let's quickly summarize what an extension is and how it can be used to solve combinatorial optimization problems with neural nets. 
@@ -67,3 +67,4 @@ Our theorem is applicable to any feasible set polytope that admits an efficient 
 
 
 [1]: https://stalence.github.io/posts/2022-12-18/Neural_Extensions.html
+[2]: https://arxiv.org/pdf/2510.24039
