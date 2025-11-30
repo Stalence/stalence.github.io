@@ -56,7 +56,7 @@ Is there a general strategy for constructing extensions with support only on fea
  5. Set $$\mathbf{x} \leftarrow \mathbf{x'}$$ and repeat from step 1. 
 
 
-By the GLS decomposition, this process will terminate in at most $$ n+1 $$ steps. A key part of the theorem is to show that that the coefficients forming the convex combinations at each iteration of the GLS decomposition are almost differentiable functions of $$\mathbf{x}$$ at each step, which allows us to backpropagate through the extension. 
+By the GLS decomposition, this process will terminate in at most $$ n+1 $$ steps. A key part of the theorem is to show that that the coefficients forming the convex combinations at each iteration of the GLS decomposition are (almost everywhere) differentiable functions of $$\mathbf{x}$$ at each step, which allows us to backpropagate through the extension. 
 
 Our theorem is applicable to any feasible set polytope that admits an efficient linear optimization oracle.
  This includes optimization problems cardinality constraints, matroid constraints, and permutations. In the paper we provide worked out examples for the decompositions of cardinality constraints, spanning trees, and independent sets. The independent set polytope does not admit a polytime oracle for linear optimization but we discuss how one could work around this issue in cases where such an oracle is not available. 
