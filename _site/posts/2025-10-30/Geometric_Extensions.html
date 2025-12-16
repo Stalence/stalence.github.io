@@ -121,7 +121,7 @@
 
             <!-- POST CONTENT -->
             <div class="entry-content">
-                <p>At NeurIPS 2025 in San Diego, we will be presenting our work on geometric algorithms for neural combinatorial optimization. I will provide a brief summary of the paper and the main idea behind it. Before I continue, it may be helpful to read this <a href="https://stalence.github.io/posts/2022-12-18/Neural_Extensions.html">blog post</a> where I discuss some of the background and motivation behind the use of extensions for combinatorial optimization with neural networks.</p>
+                <p>At NeurIPS 2025 in San Diego, we will be presenting our <a href="https://arxiv.org/pdf/2510.24039">paper on geometric algorithms for neural combinatorial optimization</a>. I will provide a brief summary of the paper and the main idea behind it. Before I continue, it may be helpful to read this <a href="https://stalence.github.io/posts/2022-12-18/Neural_Extensions.html">blog post</a> where I discuss some of the background and motivation behind the use of extensions for combinatorial optimization with neural networks.</p>
 
 <h2 id="learning-with-extensions-background">Learning with extensions: background</h2>
 <p>First, let’s quickly summarize what an extension is and how it can be used to solve combinatorial optimization problems with neural nets. 
@@ -161,14 +161,14 @@ Is there a general strategy for constructing extensions with support only on fea
   <li>Set \(\mathbf{x} \leftarrow \mathbf{x'}\) and repeat from step 1.</li>
 </ol>
 
-<p>By the GLS decomposition, this process will terminate in at most \(n+1\) steps. A key part of the theorem is to show that that the coefficients forming the convex combinations at each iteration of the GLS decomposition are almost differentiable functions of \(\mathbf{x}\) at each step, which allows us to backpropagate through the extension.</p>
+<p>By the GLS decomposition, this process will terminate in at most \(n+1\) steps. A key part of the theorem is to show that that the coefficients forming the convex combinations at each iteration of the GLS decomposition are (almost everywhere) differentiable functions of \(\mathbf{x}\) at each step, which allows us to backpropagate through the extension.</p>
 
 <p>Our theorem is applicable to any feasible set polytope that admits an efficient linear optimization oracle.
  This includes optimization problems cardinality constraints, matroid constraints, and permutations. In the paper we provide worked out examples for the decompositions of cardinality constraints, spanning trees, and independent sets. The independent set polytope does not admit a polytime oracle for linear optimization but we discuss how one could work around this issue in cases where such an oracle is not available.</p>
 
-<p>It is important to note that hard combinatorial problems can often be reformulated in terms of polytopes that admit linear optimization oracles. For example, the Travelling Salesperson Problem (TSP) can be viewed as a linear optimization problem over the TSP polytope but it can also be viewed as quadratic optimization over a permutation polytope. In that case, the TSP problem would be solved by producing an extension of the quadratic objective over the feasible set of permutations. This significantly improves the applicability of our approach.</p>
+<p>It is important to note that <span style="color:rgb(255, 166, 0)"> hard combinatorial problems can often be reformulated in terms of polytopes that admit linear optimization oracles </span>. For example, the Travelling Salesperson Problem (TSP) can be viewed as a linear optimization problem over the TSP polytope but it can also be viewed as quadratic optimization over a permutation polytope. That permutation polytope (Birkhoff Polytope) admits a fast oracle for its linear optimization problem. In that case, the TSP problem would be solved by producing an extension of the quadratic objective over the feasible set of permutations. This significantly improves the applicability of our approach.</p>
 
-<p>Finally, our proposed decomposition algorithm is more general than the GLS decomposition since it allows for approximate versions of the Carathéodory decomposition. We provide an example of such a decomposition which we were able to use in our experiments to improve results on the maximum coverage problem.</p>
+<p>Finally, our proposed decomposition algorithm is more general than the GLS decomposition since <span style="color:rgb(255, 166, 0)">it allows for approximate versions of the Carathéodory decomposition (Proposition 4.2 in the paper) </span>. We provide an example of such a decomposition which we were able to use in our experiments to improve results on the maximum coverage problem.</p>
 
 
             </div>
