@@ -14,6 +14,8 @@ Recently, I have been working on:</p>
 <ul>
   <li>Designing neural network-based algorithms for combinatorial optimization problems that can provide solution quality certificates and/or worst-case guarantees.</li>
   <li>Differentiable learning and reasoning over discrete structures. Learning to solve optimization problems with constraints.</li>
+    <li> Solving continuous formulations of discrete optimization problems with gradient-based methods in high dimensions. </li>
+
 </ul>
 <p>If you are a student interested in working with me in any of those topics feel free to shoot me an email!</p>
 
