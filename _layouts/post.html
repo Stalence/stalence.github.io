@@ -12,13 +12,6 @@
             <a href="/"><img src="/images/header/GITS_crop.jpg"></a>
         </span>
     </center> 
-    <br>
-    <center>
-        <span class="main-header-image">
-            <h1 style="font-weight:100; font-kerning:normal"><a href="/">{{ site.title }}</a></h1>
-        </span>
-    </center>
-
     <!-- NAVIGATION -->
     <br>
     {% include navigation.html %}
@@ -32,7 +25,13 @@
         <article class="hentry">
 
             <div class="featured-image">
+            {% if page.featured-image-zoom %}
+            <div style="overflow:hidden;">
+                <img src="{{ page.featured-image}}" style="width:100%; display:block; transform:scale({{ page.featured-image-zoom }}); transform-origin:center;">
+            </div>
+            {% else %}
             <img src="{{ page.featured-image}}" style="width:100%">
+            {% endif %}
             </div>
 
             <!-- MAIN -->

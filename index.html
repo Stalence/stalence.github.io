@@ -1,13 +1,24 @@
 ---
 layout: post-index
 ---
+{% if paginator.page == 1 %}
+<section class="home-intro" aria-labelledby="home-intro-title">
+    <img class="home-intro-photo" src="/images/about/me.jpg" alt="Nikos Karalias" width="144" height="192">
+    <div class="home-intro-heading">
+        <h2 id="home-intro-title">Nikos Karalias</h2>
+    </div>
+    <p class="home-intro-description">I’m a postdoctoral researcher at MIT working with Stefanie Jegelka. I work on solving hard combinatorial optimization problems using machine learning methods. <span class="home-intro-job-market">I’m currently on the academic job market.</span> <a href="/cv/nikos-karalias-cv.pdf">Current CV (PDF)</a></p>
+</section>
+{% endif %}
+
+
 {% for post in paginator.posts %}
 <article>
     
     <!-- POST FEATURED IMAGE -->
     <div class="preview-image">
-    <a href={{ post.url }}>
-    <img src="{{ post.preview-image}}" style="width:100%; height:160px;"> </a>
+    <a href="{{ post.url }}">
+    <img src="{{ post.preview-image }}" alt="{{ post.preview-image-alt | default: post.title | escape }}"> </a>
     </div>
 
     <!-- POST TITLE -->

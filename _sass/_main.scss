@@ -346,6 +346,21 @@ header .entry-meta {
 		padding: 25px 15px;
 		overflow: hidden;
 
+		.preview-image {
+			a {
+				display: block;
+			}
+
+			img {
+				display: block;
+				width: 100%;
+				height: auto;
+				aspect-ratio: 3 / 1;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+
 		@media #{$small} {
 		.featured-image {
 				display:block;
@@ -474,4 +489,80 @@ h1 {
         font-size: 26px;
 		color:#F2992E;
 	}
+}
+
+/*--- HOMEPAGE INTRODUCTION -------------------------------------------------*/
+
+#post-index .home-intro {
+    display: grid;
+    grid-template-columns: 144px minmax(0, 1fr);
+    column-gap: 30px;
+    row-gap: 14px;
+    margin-bottom: 30px;
+    padding: 32px;
+    background: #242424;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+}
+
+#post-index .home-intro-photo {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: center;
+    display: block;
+    width: 144px;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+#post-index .home-intro-heading,
+#post-index .home-intro-description {
+    grid-column: 2;
+}
+
+#post-index .home-intro-job-market {
+    color: #F2992E;
+}
+
+#post-index #home-intro-title {
+    margin: 0;
+    color: #e8e6e1;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+#post-index .home-intro-description {
+    max-width: 65ch;
+    margin: 0;
+    color: #b6b4b0;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+@media only screen and (max-width: 600px) {
+    #post-index .home-intro {
+        grid-template-columns: 96px minmax(0, 1fr);
+        column-gap: 22px;
+        padding: 22px;
+    }
+
+    #post-index .home-intro-photo {
+        grid-row: 1;
+        width: 96px;
+        height: 128px;
+    }
+
+    #post-index .home-intro-heading {
+        align-self: center;
+    }
+
+    #post-index #home-intro-title {
+        font-size: 28px;
+    }
+
+    #post-index .home-intro-description {
+        grid-column: 1 / -1;
+    }
 }

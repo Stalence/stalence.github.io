@@ -8,7 +8,7 @@ featured-image: /images/about/me.jpg
 <div style="font-size: 24px;float:center; position: relative; left: 250px">
  <a href="https://twitter.com/AspectStalence" class="fa fa-twitter fa-2x" ></a>   <a href="https://scholar.google.com/citations?user=CRLG9UcAAAAJ&hl=el" class="ai ai-google-scholar-square fa-2x"></a>   <a href="https://github.com/Stalence" class="fa fa-github fa-2x"></a> <a href="https://www.shadertoy.com/user/Aspect"><img src="/images/icons/logo-removebg-preview.png" class="shadertoy"></a> 
   </div>
-<p>I am currently a SNSF postdoctoral fellow at MIT CSAIL, supervised by Stefanie Jegelka. Previously, I completed my PhD  at EPFL, where I was supervised by Andreas Loukas and Pierre Vandergheynst.
+<p>I am currently a postdoctoral researcher at MIT, working with Stefanie Jegelka. Previously, I completed my PhD at EPFL, where I was supervised by Pierre Vandergheynst and worked closely with Andreas Loukas.
 My research focus is at the intersection of combinatorial optimization and machine learning, where I develop novel methods that utilize neural networks to solve diverse combinatorial and algorithmic problems.
 Recently, I have been working on:</p>
 <ul>
