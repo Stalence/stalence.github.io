@@ -10,14 +10,9 @@ featured-image: /images/about/nikos-karalias-about.png
   </div>
 <p>I am currently a postdoctoral researcher at MIT, working with Stefanie Jegelka. Previously, I completed my PhD at EPFL, where I was supervised by Pierre Vandergheynst and worked closely with Andreas Loukas.
 My research focus is at the intersection of combinatorial optimization and machine learning, where I develop novel methods that utilize neural networks to solve diverse combinatorial and algorithmic problems.
-Recently, I have been working on:</p>
-<ul>
-  <li>Designing neural network-based algorithms for combinatorial optimization problems that can provide solution quality certificates and/or worst-case guarantees.</li>
-  <li>Differentiable learning and reasoning over discrete structures. Learning to solve optimization problems with constraints.</li>
-    <li> Solving continuous formulations of discrete optimization problems with gradient-based methods in high dimensions. </li>
-
-</ul>
-<p>If you are a student interested in working with me in any of those topics feel free to shoot me an email!</p>
+I draw on ideas from combinatorics and theoretical computer science, including geometric and probabilistic methods, to develop continuous formulations and principled machine learning algorithms for these problems.
+</p>
+<p>If you are a student interested in working with me on those topics, feel free to shoot me an email!</p>
 
 <p>Outside of research, I love doing parkour and playing the drums. I will post more content related to my research on this website such as tutorials or practical
     guides for combinatorial ML. However, I may occassionally write something about other topics (love the Matrix Trilogy!).</p>

@@ -53,7 +53,8 @@ For CNF formulas, this objective is essentially equivalent to the sum of the cla
   <figcaption>Direct optimization updates the probabilities <em>p</em> within the hypercube. Neural optimization produces probabilities <em>p</em><sub>θ</sub> from formula graph features and updates the network parameters <em>θ</em>. Both minimize the same multilinear loss.</figcaption>
 </figure>
 
-This probabilistic perspective also helps us think about optimization. For unsatisfiable formulas, minimizing this bound can be more effective than maximizing the exact probability of satisfaction, even setting computational cost aside (can you see why?).
+This probabilistic perspective also helps us think about optimization. The bound becomes loose when a sampled assignment can violate several clauses at once. If a sampled assignment violates three clauses, the loss counts three violations, while the probability that the formula fails counts that assignment only once. Gradient descent can therefore lower the loss by shifting probability toward assignments with fewer violations, even if those assignments still fail to satisfy the formula. For unsatisfiable formulas, minimizing this bound can be more effective than maximizing the exact probability of satisfaction, even setting computational cost aside (can you see why?).
+{: #optimization-intuition }
 
 With this common formulation, we study three issues that have also been investigated for discrete solvers.
 
@@ -69,7 +70,17 @@ We show that these stable color classes define invariant subspaces for gradient 
 
 ## 3. Formula transformations
 
-Finally, we study familiar SAT operations such as unit clause propagation, resolution, and variable elimination. These preserve satisfiability, but they can change the continuous loss, its smoothness, and the graph seen by a neural network. For example, adding a logically redundant clause leaves every satisfying assignment unchanged while adding a new term to the expected-violation objective. The exact probability of satisfaction at fixed $$p$$ is unchanged, but the new term can alter the optimization trajectory and, on satisfiable instances, change the probability of sampling a satisfying assignment from the final marginals. We analyze these effects and show that certain transformations can also break expressivity barriers of message-passing GNNs. We see that simplifications such as unit propagation can help direct gradient descent, while transformed instances can improve data efficiency and inference-time performance for self-supervised neural solvers. The representation of a formula is therefore part of the algorithmic design, with consequences for both the optimization dynamics and the capabilities of neural solvers.
+Finally, we study familiar SAT operations such as unit clause propagation, resolution, and variable elimination. These preserve satisfiability, but they can change the continuous loss, its smoothness, and the graph seen by a neural network.
+
+Start with $$\Phi=(x_1\vee x_2)\wedge(\neg x_1\vee x_2)$$. Introduce a fresh variable $$u$$, add the unit clause $$(u)$$, and append $$\neg u$$ to the first clause to get
+
+$$
+\widehat{\Phi}=(u)\wedge(x_1\vee x_2\vee\neg u)\wedge(\neg x_1\vee x_2).
+$$
+
+The unit clause forces $$u=1$$, so we recover the original formula and preserve satisfiability. But a random assignment must now get $$u$$ right too. If we sample every variable with probability $$1/2$$ of being true, the chance of satisfying the formula drops from $$1/2$$ to $$1/4$$. The loss rises from $$1/2$$ to $$7/8$$. We now count assignments that violate both $$(u)$$ and $$(\neg x_1\vee x_2)$$ twice, so our bound overshoots the true failure probability of $$3/4$$. We also give gradient descent another variable to optimize and change the gradients on the original variables.
+
+We analyze these effects and show that certain transformations can also break expressivity barriers of message-passing GNNs. We see that simplifications such as unit propagation can help direct gradient descent, while transformed instances can improve data efficiency and inference-time performance for self-supervised neural solvers. The representation of a formula is therefore part of the algorithmic design, with consequences for both the optimization dynamics and the capabilities of neural solvers.
 
 [^numerical-symmetry]: This invariance holds in exact arithmetic. In practice, rounding errors from finite numerical precision may break symmetry over long gradient descent trajectories.
 
