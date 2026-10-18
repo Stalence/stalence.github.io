@@ -507,7 +507,7 @@ h1 {
 
 #post-index .home-intro-photo {
     grid-column: 1;
-    grid-row: 1 / 3;
+    grid-row: 1 / 4;
     align-self: center;
     display: block;
     width: 144px;
@@ -517,7 +517,8 @@ h1 {
 }
 
 #post-index .home-intro-heading,
-#post-index .home-intro-description {
+#post-index .home-intro-description,
+#post-index .home-intro-resources {
     grid-column: 2;
 }
 
@@ -541,6 +542,30 @@ h1 {
     line-height: 1.65;
 }
 
+#post-index .home-intro-resources {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#post-index .home-intro-resources > a {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#post-index .home-intro-scholar {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#post-index .home-intro-scholar .ai {
+    font-size: 1em;
+}
+
 @media only screen and (max-width: 600px) {
     #post-index .home-intro {
         grid-template-columns: 96px minmax(0, 1fr);
@@ -562,7 +587,8 @@ h1 {
         font-size: 28px;
     }
 
-    #post-index .home-intro-description {
+    #post-index .home-intro-description,
+    #post-index .home-intro-resources {
         grid-column: 1 / -1;
     }
 }

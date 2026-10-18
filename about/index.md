@@ -2,7 +2,7 @@
 layout: about
 categories: about
 title: About
-featured-image: /images/about/me.jpg
+featured-image: /images/about/nikos-karalias-about.png
 #permalink: /about/index.html
 ---
 <div style="font-size: 24px;float:center; position: relative; left: 250px">
