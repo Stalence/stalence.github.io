@@ -9,9 +9,14 @@ featured-image: /images/about/nikos-karalias-about.png
  <a href="https://twitter.com/AspectStalence" class="fa fa-twitter fa-2x" ></a>   <a href="https://scholar.google.com/citations?user=CRLG9UcAAAAJ&hl=el" class="ai ai-google-scholar-square fa-2x"></a>   <a href="https://github.com/Stalence" class="fa fa-github fa-2x"></a> <a href="https://www.shadertoy.com/user/Aspect"><img src="/images/icons/logo-removebg-preview.png" class="shadertoy"></a> 
   </div>
 <p>I am currently a postdoctoral researcher at MIT, working with Stefanie Jegelka. Previously, I completed my PhD at EPFL, where I was supervised by Pierre Vandergheynst and worked closely with Andreas Loukas.
-My research focus is at the intersection of combinatorial optimization and machine learning, where I develop novel methods that utilize neural networks to solve diverse combinatorial and algorithmic problems.
-I draw on ideas from combinatorics and theoretical computer science, including geometric and probabilistic methods, to develop continuous formulations and principled machine learning algorithms for these problems.
+I work at the intersection of combinatorial optimization and machine learning, drawing on geometric and probabilistic ideas from combinatorics and theoretical computer science to develop continuous formulations and principled neural algorithms for discrete problems.
 </p>
+<p id="research-motivation">Training neural networks with gradient descent to solve discrete optimization problems creates a bridge between beautiful ideas in discrete and continuous mathematics. <span id="research-directions">At this interface, two directions particularly drive my research.</span></p>
+
+<ul>
+  <li>Finding natural high-dimensional continuous formulations of discrete optimization problems that enable efficient gradient-based optimization.</li>
+  <li>Developing neural network-based algorithms for discrete optimization with guarantees on feasibility, efficiency, and approximation quality.</li>
+</ul>
 <p>If you are a student interested in working with me on those topics, feel free to shoot me an email!</p>
 
 <p>Outside of research, I love doing parkour and playing the drums. I will post more content related to my research on this website such as tutorials or practical
