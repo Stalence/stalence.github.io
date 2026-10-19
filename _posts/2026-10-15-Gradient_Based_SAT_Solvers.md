@@ -78,7 +78,27 @@ $$
 \widehat{\Phi}=(u)\wedge(x_1\vee x_2\vee\neg u)\wedge(\neg x_1\vee x_2).
 $$
 
-The unit clause forces $$u=1$$, so we recover the original formula and preserve satisfiability. But a random assignment must now get $$u$$ right too. If we sample every variable with probability $$1/2$$ of being true, the chance of satisfying the formula drops from $$1/2$$ to $$1/4$$. The loss rises from $$1/2$$ to $$7/8$$. We now count assignments that violate both $$(u)$$ and $$(\neg x_1\vee x_2)$$ twice, so our bound overshoots the true failure probability of $$3/4$$. We also give gradient descent another variable to optimize and change the gradients on the original variables.
+To satisfy the unit clause, we need $$u=1$$, so we recover the original formula and preserve satisfiability. But that means the probability of satisfying the unit clause directly affects the probability of sampling a satisfying assignment for the whole formula. Let $$U$$ be the sampled value of $$u$$ and write $$q=\Pr[U=1]$$. Since we sample $$U$$ independently of the original variables, the new satisfaction probability is $$q$$ times the original one.
+
+For example, set $$p_1=p_2=q=1/2$$. The original formula is satisfied exactly when $$x_2=1$$, so
+
+$$
+\begin{aligned}
+\Pr[\Phi(X)=1] &= \frac12, \\
+\Pr[\widehat{\Phi}(X,U)=1] &= \frac12\cdot\frac12=\frac14.
+\end{aligned}
+$$
+
+To calculate the loss, we add the clause-violation probabilities. The two original clauses each fail with probability $$1/4$$. In the transformed formula, the unit clause fails with probability $$1/2$$, the clause containing three literals with probability $$1/8$$, and the remaining clause with probability $$1/4$$. Adding them gives
+
+$$
+\begin{aligned}
+\mathcal{L}_\Phi(p) &= \frac14+\frac14=\frac12, \\
+\mathcal{L}_{\widehat{\Phi}}(p,q) &= \frac12+\frac18+\frac14=\frac78.
+\end{aligned}
+$$
+
+We count assignments that violate both $$(u)$$ and $$(\neg x_1\vee x_2)$$ twice. The true failure probability is $$1-1/4=3/4$$, so the bound overshoots it by $$7/8-3/4=1/8$$. We also give gradient descent another variable to optimize and change the gradients on the original variables.
 
 We analyze these effects and show that certain transformations can also break expressivity barriers of message-passing GNNs. We see that simplifications such as unit propagation can help direct gradient descent, while transformed instances can improve data efficiency and inference-time performance for self-supervised neural solvers. The representation of a formula is therefore part of the algorithmic design, with consequences for both the optimization dynamics and the capabilities of neural solvers.
 
