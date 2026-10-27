@@ -3,6 +3,8 @@ layout: publications
 categories: posts
 title: Publications
 ---
+* Li C., Brockmoeller T., Jegelka S., Gupta S., Karalias N. (2026). On the Fragility of Tasks under Composition: Implicit Budgeting in Language Models. arXiv preprint. ([arxiv][33], [pdf][34], [project][35], [code][36], [discussion][37], [bibtex][38])
+
 * Karalias N., Peltonen S., Kostin N., Jegelka S. (2026). On the fundamentals of gradient-based SAT solvers. NeurIPS 2026, Sydney (to appear). ([pdf][26], [blogpost][27])
 
 * Karalias N., Rafiey A., Xu Y., Luo Z., Tahmasebi B., Jiang C., Jegelka S. (2025)
@@ -56,3 +58,9 @@ Geometric Algorithms for Neural Combinatorial Optimization with Constraints. Neu
 [30]: https://openreview.net/pdf/92ee36b931dd11494900a47379d0d70c69a597f1.pdf
 [31]: https://openreview.net/forum?id=A4FI5tZRT4
 [32]: https://arxiv.org/abs/2609.25728
+[33]: https://arxiv.org/abs/2610.27190
+[34]: https://arxiv.org/pdf/2610.27190
+[35]: https://chenpanli.github.io/fragility/
+[36]: https://github.com/chenpanli/fragility
+[37]: https://huggingface.co/papers/2610.27190
+[38]: https://arxiv.org/bibtex/2610.27190

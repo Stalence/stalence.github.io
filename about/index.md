@@ -15,7 +15,7 @@ I work at the intersection of combinatorial optimization and machine learning, w
 
 <ul>
   <li>Finding natural high-dimensional continuous formulations of discrete optimization problems that enable efficient gradient-based optimization.</li>
-  <li>Developing neural network-based algorithms for discrete optimization with guarantees on feasibility, efficiency, and approximation quality.</li>
+  <li>Developing data-driven algorithms for discrete optimization with guarantees on feasibility, efficiency, and approximation quality.</li>
 </ul>
 <p>If you are a student interested in working with me on those topics, feel free to shoot me an email!</p>
 
